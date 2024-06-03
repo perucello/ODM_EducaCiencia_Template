@@ -1,0 +1,17 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "2f2a34c3-063f-4a6d-8f16-1ad2f9747955"
+package br.com.educaciencia.response;
+
+
+public class Valida_Solicitacao
+{
+    public boolean valida_objeto1_aposVencto;
+    public boolean valida_objeto1_ateVencto;
+    public boolean valida_objeto6_aposVencto;
+    public boolean valida_objeto6_ateVencto;
+    public Valida_Solicitacao(boolean arg1, boolean arg2, boolean arg3, boolean arg4);
+    public Valida_Solicitacao();
+}
+

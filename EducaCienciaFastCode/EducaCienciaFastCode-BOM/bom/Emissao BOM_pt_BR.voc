@@ -1,0 +1,7 @@
+# Vocabulary Properties
+uuid = d8cae32f-5a3e-485f-b595-cd87d3b09e34
+
+# br.com.educaciencia.request.Emissao
+br.com.educaciencia.request.Emissao#concept.label = emissao
+br.com.educaciencia.request.Emissao.dataEmissao#phrase.action = atribuir o data emissao {this,PARTITIVE_ARTICLE} a {data emissao}
+br.com.educaciencia.request.Emissao.dataEmissao#phrase.navigation = {data emissao} {this,PARTITIVE_ARTICLE}

@@ -1,0 +1,35 @@
+# Vocabulary Properties
+uuid = 6554d777-3586-4ff1-a66e-676f1020e0eb
+
+# br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado#concept.label = valida fluxo aprovado
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_01#phrase.action = colocar à {valida add aprovado lista regra 01} que {this} é valida add aprovado lista regra 01
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_01#phrase.navigation = {this} é valida add aprovado lista regra 01
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_02#phrase.action = colocar à {valida add aprovado lista regra 02} que {this} é valida add aprovado lista regra 02
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_02#phrase.navigation = {this} é valida add aprovado lista regra 02
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_03#phrase.action = colocar à {valida add aprovado lista regra 03} que {this} é valida add aprovado lista regra 03
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_03#phrase.navigation = {this} é valida add aprovado lista regra 03
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_04#phrase.action = colocar à {valida add aprovado lista regra 04} que {this} é valida add aprovado lista regra 04
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_04#phrase.navigation = {this} é valida add aprovado lista regra 04
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_05#phrase.action = colocar à {valida add aprovado lista regra 05} que {this} é valida add aprovado lista regra 05
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_05#phrase.navigation = {this} é valida add aprovado lista regra 05
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_06#phrase.action = colocar à {valida add aprovado lista regra 06} que {this} é valida add aprovado lista regra 06
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_06#phrase.navigation = {this} é valida add aprovado lista regra 06
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_07#phrase.action = colocar à {valida add aprovado lista regra 07} que {this} é valida add aprovado lista regra 07
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_07#phrase.navigation = {this} é valida add aprovado lista regra 07
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_08#phrase.action = colocar à {valida add aprovado lista regra 08} que {this} é valida add aprovado lista regra 08
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_08#phrase.navigation = {this} é valida add aprovado lista regra 08
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_09#phrase.action = colocar à {valida add aprovado lista regra 09} que {this} é valida add aprovado lista regra 09
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_09#phrase.navigation = {this} é valida add aprovado lista regra 09
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_10#phrase.action = colocar à {valida add aprovado lista regra 10} que {this} é valida add aprovado lista regra 10
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_10#phrase.navigation = {this} é valida add aprovado lista regra 10
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_11#phrase.action = colocar à {valida add aprovado lista regra 11} que {this} é valida add aprovado lista regra 11
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_11#phrase.navigation = {this} é valida add aprovado lista regra 11
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_12#phrase.action = colocar à {valida add aprovado lista regra 12} que {this} é valida add aprovado lista regra 12
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_12#phrase.navigation = {this} é valida add aprovado lista regra 12
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_13#phrase.action = colocar à {valida add aprovado lista regra 13} que {this} é valida add aprovado lista regra 13
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_13#phrase.navigation = {this} é valida add aprovado lista regra 13
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_14#phrase.action = colocar à {valida add aprovado lista regra 14} que {this} é valida add aprovado lista regra 14
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_14#phrase.navigation = {this} é valida add aprovado lista regra 14
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_15#phrase.action = colocar à {valida add aprovado lista regra 15} que {this} é valida add aprovado lista regra 15
+br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado.valida_add_Aprovado_lista_regra_15#phrase.navigation = {this} é valida add aprovado lista regra 15

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>003 - falso</name>
+  <uuid>286206a2-5ab7-4623-83a2-9f556aa0d730</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	 Valida_Fluxo_Aprovado é valida add aprovado lista regra 01 é falso 
+então 
+	Apresentar "Valida_Fluxo_Aprovado é valida add aprovado lista é falso "; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

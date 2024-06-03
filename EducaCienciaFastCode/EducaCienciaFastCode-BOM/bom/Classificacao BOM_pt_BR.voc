@@ -1,0 +1,12 @@
+# Vocabulary Properties
+uuid = 7d7a3e66-c421-406e-a546-4b229edfc5b0
+
+# br.com.educaciencia.request.Classificacao
+br.com.educaciencia.request.Classificacao#concept.label = classificacao
+br.com.educaciencia.request.Classificacao.segmento#phrase.action = atribuir o segmento {this, PARTITIVE_ARTICLE} a {segmento}
+br.com.educaciencia.request.Classificacao.segmento#phrase.navigation = {segmento} {this, PARTITIVE_ARTICLE}
+br.com.educaciencia.request.Classificacao.segmento_virtual#phrase.action = atribuir o segmento virtual {this,PARTITIVE_ARTICLE} a {segmento virtual}
+br.com.educaciencia.request.Classificacao.segmento_virtual#phrase.clearer = segmento_virtual {this}
+br.com.educaciencia.request.Classificacao.segmento_virtual#phrase.navigation = {segmento virtual} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.request.Classificacao.subSegmento#phrase.action = atribuir o sub segmento {this, PARTITIVE_ARTICLE} a {sub segmento}
+br.com.educaciencia.request.Classificacao.subSegmento#phrase.navigation = {sub segmento} {this, PARTITIVE_ARTICLE}

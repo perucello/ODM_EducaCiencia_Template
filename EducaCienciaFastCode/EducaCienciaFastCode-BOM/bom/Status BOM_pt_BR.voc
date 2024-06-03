@@ -1,0 +1,11 @@
+# Vocabulary Properties
+uuid = 4463a055-23f2-4ea9-9fee-9640e5e25b26
+
+# br.com.educaciencia.response.Status
+br.com.educaciencia.response.Status#concept.label = status
+br.com.educaciencia.response.Status.adicionarCondicaoAceite_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)#phrase.action = {this}.adicionarCondicaoAceite_2({0}, {1}, {2}, {3})
+br.com.educaciencia.response.Status.condicaoAceite#phrase.action = atribuir os condicaos aceite {this,PARTITIVE_ARTICLE} a {condicao aceite}
+br.com.educaciencia.response.Status.condicaoAceite#phrase.navigation = {condicao aceite} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.response.Status.mostrarLista_ODM()#phrase.action = mostrarLista_ODM {this}
+br.com.educaciencia.response.Status.status_final#phrase.action = atribuir o status final {this,PARTITIVE_ARTICLE} a {status final}
+br.com.educaciencia.response.Status.status_final#phrase.navigation = {status final} {this,PARTITIVE_ARTICLE}

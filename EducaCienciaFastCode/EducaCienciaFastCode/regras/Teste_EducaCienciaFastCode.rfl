@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>Teste_EducaCienciaFastCode</name>
+  <uuid>cf473be5-ef25-4f25-8424-b7e3e2928b55</uuid>
+  <locale>pt_BR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Tabela 01" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "****************************************"; 
+Apresentar "****************************************";   
+Apresentar "**** TESTE EDUCACIENCIA FASTCODE *******";   
+Apresentar "****************************************";   
+Apresentar "****************************************";   
+Apresentar "Produto teste: " + o produto de Solicitacao ; 
+Apresentar "****************************************";   
+Apresentar "**** Tabela 1 **************************"; 
+
+
+
+]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "status de Status: " + o status final de Status ;
+Apresentar "********** final ***********";
+Apresentar "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
+]]></FinalActions>
+        <RuleList>
+          <Rule Uuid="2bdcba44-09e8-4ca8-bf95-a817ca05d23c"/>
+        </RuleList>
+      </RuleTask>
+      <ActionTask Identifier="FIM ">
+        <InitialActions Language="bal"><![CDATA[Apresentar "****************************************";   
+Apresentar "************ FIM ***********************";  
+]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "****************************************";  
+Apresentar "****   Lista  **************************"; 
+mostrarLista_ODM Status; 
+Apresentar "****************************************";  
+Apresentar "****   Lista  Aprovados ****"; 
+mostrarLista_ODM_aprovados Status_Aprovado;  
+Apresentar "****************************************";  
+Apresentar "****************************************";  
+]]></FinalActions>
+      </ActionTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="001 - teste Aprovado" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "Tabela 2: Valida_Fluxo_Aprovado é valida add aprovado lista é true " ;
+Apresentar "****************************************";   ]]></InitialActions>
+        <RuleList>
+          <Rule Uuid="91e5e025-7685-4340-a5aa-5b48bc4669cb"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="003 - falso  - Excecoes da Regra" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "Tabela 2: Valida_Fluxo_Aprovado é valida add aprovado lista é false " ;
+Apresentar "****************************************";   ]]></InitialActions>
+        <RuleList>
+          <Rule Uuid="a7c54afe-9622-4c7c-b662-1025ac4e383e"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Tabela 02" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "Produto teste: " + o produto de Solicitacao ; 
+Apresentar "****************************************";   
+Apresentar "**** Tabela 2 **************************"; ]]></InitialActions>
+        <RuleList>
+          <Rule Uuid="3cab740f-0eb7-43a6-952b-d44a651c92d5"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="002 - teste Aprovado" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "Tabela 3: Valida_Fluxo_Aprovado é valida add aprovado lista é true " ;
+Apresentar "****************************************";   
+]]></InitialActions>
+        <RuleList>
+          <Rule Uuid="bb189d5b-1d4b-4bb7-b80d-bf2affb57789"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="003 - falso  - Excecoes da Regra " Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "Tabela 3: Valida_Fluxo_Aprovado é valida add aprovado lista é false " ;
+Apresentar "****************************************";   
+]]></InitialActions>
+        <RuleList>
+          <Rule Uuid="a7c54afe-9622-4c7c-b662-1025ac4e383e"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_1"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+      <TaskNode Identifier="node_2" Task="Tabela 01"/>
+      <TaskNode Identifier="node_3" Task="FIM "/>
+      <TaskNode Identifier="node_4" Task="001 - teste Aprovado"/>
+      <TaskNode Identifier="node_5" Task="003 - falso  - Excecoes da Regra"/>
+      <TaskNode Identifier="node_6" Task="Tabela 02"/>
+      <TaskNode Identifier="node_7" Task="002 - teste Aprovado"/>
+      <TaskNode Identifier="node_8" Task="003 - falso  - Excecoes da Regra "/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_2"/>
+      <Transition Identifier="transition_3" Source="node_3" Target="node_1"/>
+      <Transition Identifier="transition_1" Source="node_2" Target="node_4"/>
+      <Transition Identifier="transition_2" Source="node_4" Target="node_6"/>
+      <Transition Identifier="transition_4" Source="node_2" Target="node_5">
+        <Conditions Language="bal"><![CDATA[Valida_Fluxo_Aprovado é valida add aprovado lista regra 01 é falso ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_5" Source="node_5" Target="node_6"/>
+      <Transition Identifier="transition_6" Source="node_6" Target="node_7"/>
+      <Transition Identifier="transition_7" Source="node_6" Target="node_8">
+        <Conditions Language="bal"><![CDATA[Valida_Fluxo_Aprovado é valida add aprovado lista regra 02 é falso ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_8" Source="node_7" Target="node_3"/>
+      <Transition Identifier="transition_9" Source="node_8" Target="node_3"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="pt_BR">
+      <Data Name="node_2#height">40.49762</Data>
+      <Data Name="node_4#width">203.0122</Data>
+      <Data Name="node_1#height">17.000017</Data>
+      <Data Name="node_3#height">40.355408</Data>
+      <Data Name="node_0#height">21.0</Data>
+      <Data Name="node_4#height">40.24945</Data>
+      <Data Name="node_7#y">361.9959</Data>
+      <Data Name="node_2#name">node_1</Data>
+      <Data Name="transition_1#label">Valida_Fluxo_Aprovado é valida add aprovado lista regra 01 é verdadeiro</Data>
+      <Data Name="node_5#height">40.0</Data>
+      <Data Name="node_6#height">40.0</Data>
+      <Data Name="node_7#height">40.355408</Data>
+      <Data Name="node_7#width">204.9801</Data>
+      <Data Name="node_8#height">40.49765</Data>
+      <Data Name="node_0#width">21.0</Data>
+      <Data Name="node_3#y">452.42242</Data>
+      <Data Name="node_5#x">136.24113</Data>
+      <Data Name="node_5#y">181.62234</Data>
+      <Data Name="node_7#x">426.48816</Data>
+      <Data Name="node_1#x">280.49365</Data>
+      <Data Name="node_8#name">node_1</Data>
+      <Data Name="node_1#y">531.1001</Data>
+      <Data Name="node_3#x">280.4936</Data>
+      <Data Name="transition_4#label">Valida_Fluxo_Aprovado é valida add aprovado lista regra 01 é falso </Data>
+      <Data Name="node_1#name">node_2</Data>
+      <Data Name="transition_7#label">Valida_Fluxo_Aprovado é valida add aprovado lista regra 02 é falso </Data>
+      <Data Name="node_3#width">223.97852</Data>
+      <Data Name="node_4#name">node_1</Data>
+      <Data Name="node_7#name">node_1</Data>
+      <Data Name="node_6#width">139.48936</Data>
+      <Data Name="node_8#x">134.49905</Data>
+      <Data Name="node_8#y">361.9959</Data>
+      <Data Name="node_5#name">node_1</Data>
+      <Data Name="transition_6#label">Valida_Fluxo_Aprovado é valida add aprovado lista regra 02 é verdadeiro</Data>
+      <Data Name="node_2#width">140.74478</Data>
+      <Data Name="node_4#x">424.7461</Data>
+      <Data Name="node_4#y">181.62234</Data>
+      <Data Name="node_6#x">280.4936</Data>
+      <Data Name="node_5#width">263.99765</Data>
+      <Data Name="node_6#y">271.74707</Data>
+      <Data Name="node_0#x">280.4936</Data>
+      <Data Name="node_0#y">10.5</Data>
+      <Data Name="node_2#x">280.4936</Data>
+      <Data Name="node_2#y">91.24881</Data>
+      <Data Name="node_8#width">268.9981</Data>
+      <Data Name="node_1#width">16.999996</Data>
+      <Data Name="node_6#name">node_1</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_3#name">node_3</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

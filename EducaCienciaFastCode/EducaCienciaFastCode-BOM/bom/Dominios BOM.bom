@@ -1,0 +1,69 @@
+
+property uuid "3355219e-47fe-4166-826a-19553c9d1b79"
+
+public class Produto_Domain
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "1"
+        property "com.ibm.rules.domainProvider.msexcel.documentationColumn.pt" "3"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.pt" "2"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "2"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "0"
+        property domainProviderResource "Domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static Produto1, static Produto2, static Produto3, static Produto4}
+    public static final readonly Produto_Domain Produto1;
+    public static final readonly Produto_Domain Produto2;
+    public static final readonly Produto_Domain Produto3;
+    public static final readonly Produto_Domain Produto4;
+}
+
+public class Segmento_Domain
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "1"
+        property "com.ibm.rules.domainProvider.msexcel.documentationColumn.pt" "3"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.pt" "2"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "0"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "0"
+        property domainProviderResource "Domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static Segmento1, static Segmento2, static Segmento3}
+    public static final readonly Segmento_Domain Segmento1;
+    public static final readonly Segmento_Domain Segmento2;
+    public static final readonly Segmento_Domain Segmento3;
+}
+
+public class Status_Domain
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "1"
+        property "com.ibm.rules.domainProvider.msexcel.documentationColumn.pt" "3"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.pt" "2"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "3"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "0"
+        property domainProviderResource "Domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static aprovar, static manual, static rejeitar, static reprovar}
+    public static final readonly Status_Domain aprovar;
+    public static final readonly Status_Domain manual;
+    public static final readonly Status_Domain rejeitar;
+    public static final readonly Status_Domain reprovar;
+}
+
+public class SubSegmento_Domain
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "1"
+        property "com.ibm.rules.domainProvider.msexcel.documentationColumn.pt" "3"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.pt" "2"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "1"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "0"
+        property domainProviderResource "Domains.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static Sub_Segmento1, static Sub_Segmento2, static Sub_Segmento3}
+    public static final readonly SubSegmento_Domain Sub_Segmento1;
+    public static final readonly SubSegmento_Domain Sub_Segmento2;
+    public static final readonly SubSegmento_Domain Sub_Segmento3;
+}
+

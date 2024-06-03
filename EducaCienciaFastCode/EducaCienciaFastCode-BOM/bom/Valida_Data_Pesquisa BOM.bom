@@ -1,0 +1,14 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "c7ed605c-37a1-48eb-82a5-cfa543700dea"
+package br.com.educaciencia.regra;
+
+
+public class Valida_Data_Pesquisa
+{
+    public string data;
+    public Valida_Data_Pesquisa(string arg);
+    public Valida_Data_Pesquisa();
+}
+

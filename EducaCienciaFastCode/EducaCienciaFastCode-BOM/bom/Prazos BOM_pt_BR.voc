@@ -1,0 +1,13 @@
+# Vocabulary Properties
+uuid = 4770cc0e-1a6a-47ea-b1fb-ab51ef5a6a07
+
+# br.com.educaciencia.request.Prazos
+br.com.educaciencia.request.Prazos#concept.label = prazos
+br.com.educaciencia.request.Prazos.prazoCurto#phrase.action = atribuir o prazo curto {this,PARTITIVE_ARTICLE} a {prazo curto}
+br.com.educaciencia.request.Prazos.prazoCurto#phrase.navigation = {prazo curto} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.request.Prazos.prazoMinimo#phrase.action = atribuir o prazo minimo {this,PARTITIVE_ARTICLE} a {prazo minimo}
+br.com.educaciencia.request.Prazos.prazoMinimo#phrase.navigation = {prazo minimo} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.request.Prazos.prazoOpCredito#phrase.action = atribuir o prazo op credito {this,PARTITIVE_ARTICLE} a {prazo op credito}
+br.com.educaciencia.request.Prazos.prazoOpCredito#phrase.navigation = {prazo op credito} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.request.Prazos.prazoTitulo#phrase.action = atribuir o prazo titulo {this,PARTITIVE_ARTICLE} a {prazo titulo}
+br.com.educaciencia.request.Prazos.prazoTitulo#phrase.navigation = {prazo titulo} {this,PARTITIVE_ARTICLE}

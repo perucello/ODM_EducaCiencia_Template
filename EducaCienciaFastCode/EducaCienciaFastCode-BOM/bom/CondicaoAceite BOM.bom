@@ -1,0 +1,17 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "d7099799-4ccd-4127-b0cf-fa05ca847e68"
+package br.com.educaciencia.response;
+
+
+public class CondicaoAceite
+{
+    public java.util.List motivos domain 0,* class br.com.educaciencia.response.Motivos;
+    public string regra;
+    public CondicaoAceite(string arg1, 
+        java.util.List arg2 domain 0,* class br.com.educaciencia.response.Motivos);
+    public CondicaoAceite();
+    public void adicionarMotivo(br.com.educaciencia.response.Motivos arg);
+}
+

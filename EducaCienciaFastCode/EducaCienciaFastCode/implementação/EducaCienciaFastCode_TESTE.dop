@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="EducaCienciaFastCode_TESTE" usingRuleflow="true" ruleflowName="Teste_EducaCienciaFastCode" targetRuleProjectName="EducaCienciaFastCode">
+  <name>EducaCienciaFastCode_TESTE</name>
+  <uuid>78a1d04d-94a7-4be7-aec6-bfe0c7eaac77</uuid>
+  <referencedVariables variableName="Status" variableSetName="variaveis" direction="OUT">
+    <variableSet href="../regras/variaveis.var#3c2e97a3-ab57-4cc9-801a-6f1bf4dfc405"/>
+  </referencedVariables>
+  <referencedVariables variableName="Status_Aprovado" variableSetName="variaveis" direction="OUT">
+    <variableSet href="../regras/variaveis.var#3c2e97a3-ab57-4cc9-801a-6f1bf4dfc405"/>
+  </referencedVariables>
+  <referencedVariables variableName="Solicitacao" variableSetName="variaveis">
+    <variableSet href="../regras/variaveis.var#3c2e97a3-ab57-4cc9-801a-6f1bf4dfc405"/>
+  </referencedVariables>
+  <ruleflow href="../regras/Teste_EducaCienciaFastCode.rfl#cf473be5-ef25-4f25-8424-b7e3e2928b55"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="EducaCienciaFastCode_TESTE_extractor" validator="Validador Padrão"/>
+  <targetRuleProject href="../../EducaCienciaFastCode#ca9c3c7e-37c7-4a26-9fb6-424bae22540a"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

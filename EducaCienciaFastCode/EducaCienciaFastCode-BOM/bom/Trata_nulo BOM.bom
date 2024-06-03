@@ -1,0 +1,21 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "bb8fa0e6-10ba-442e-8396-1aae9e64d202"
+package br.com.educaciencia.regra;
+
+
+public class Trata_nulo
+{
+    public boolean objeto1_aposVencto;
+    public boolean objeto1_ateVencto;
+    public boolean objeto6_aposVencto;
+    public boolean objeto6_ateVencto;
+    public boolean resultado;
+    public java.lang.Double valor;
+    public Trata_nulo(java.lang.Double arg1, boolean arg2, boolean arg3, boolean arg4, boolean arg5, boolean arg6);
+    public Trata_nulo();
+    public boolean checagem_Nulo(java.lang.Double arg);
+    public boolean checagem_mesesVencimento(boolean arg);
+}
+

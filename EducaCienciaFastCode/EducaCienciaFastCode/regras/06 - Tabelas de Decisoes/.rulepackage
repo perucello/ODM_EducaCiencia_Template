@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>06 - Tabelas de Decisoes</name>
+  <uuid>f772d9d1-e109-4cda-973e-9ff8a96a7a92</uuid>
+</ilog.rules.studio.model.base:RulePackage>

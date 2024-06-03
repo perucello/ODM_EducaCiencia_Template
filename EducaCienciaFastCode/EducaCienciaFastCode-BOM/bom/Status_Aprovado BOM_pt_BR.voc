@@ -1,0 +1,11 @@
+# Vocabulary Properties
+uuid = 98ff0ddd-a074-429c-89c4-fe3be2a1db42
+
+# br.com.educaciencia.response.aprovado.Status_Aprovado
+br.com.educaciencia.response.aprovado.Status_Aprovado#concept.label = status aprovado
+br.com.educaciencia.response.aprovado.Status_Aprovado.adicionarCondicaoAceiteAprovado_2(java.lang.String,java.lang.String,java.lang.String)#phrase.action = {this}.adicionarCondicaoAceiteAprovado_2({0}, {1}, {2})
+br.com.educaciencia.response.aprovado.Status_Aprovado.condicaoAceite#phrase.action = atribuir os condicaos aceite {this,PARTITIVE_ARTICLE} a {condicao aceite}
+br.com.educaciencia.response.aprovado.Status_Aprovado.condicaoAceite#phrase.navigation = {condicao aceite} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.response.aprovado.Status_Aprovado.mostrarLista_ODM_aprovados()#phrase.action = mostrarLista_ODM_aprovados {this}
+br.com.educaciencia.response.aprovado.Status_Aprovado.status_final#phrase.action = atribuir o status final {this,PARTITIVE_ARTICLE} a {status final}
+br.com.educaciencia.response.aprovado.Status_Aprovado.status_final#phrase.navigation = {status final} {this,PARTITIVE_ARTICLE}

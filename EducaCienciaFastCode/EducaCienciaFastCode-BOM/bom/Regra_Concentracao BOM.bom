@@ -1,0 +1,14 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "2d387465-8225-47f7-a013-95b00d7c19c4"
+package br.com.educaciencia.regra;
+
+
+public class Regra_Concentracao
+{
+    public Regra_Concentracao();
+    public boolean calculo_ConcentracaoPCD_ConcentracaoSacadoCedente(int arg1, int arg2, int arg3);
+    public boolean calculo_ConcentracaoPolitica_Bonus(int arg1, int arg2, int arg3);
+}
+

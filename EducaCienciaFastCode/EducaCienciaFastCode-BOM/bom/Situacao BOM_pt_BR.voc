@@ -1,0 +1,10 @@
+# Vocabulary Properties
+uuid = 8e382829-4ba0-4012-9326-dfc7a8fd9c38
+
+# br.com.educaciencia.response.Situacao
+br.com.educaciencia.response.Situacao#concept.label = situacao
+br.com.educaciencia.response.Situacao.condicoesAceite#phrase.action = atribuir os condicoes aceite {this,PARTITIVE_ARTICLE} a {condicoes aceite}
+br.com.educaciencia.response.Situacao.condicoesAceite#phrase.navigation = {condicoes aceite} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.response.Situacao.situacao#phrase.action = atribuir o situacao {this,PARTITIVE_ARTICLE} a {situacao}
+br.com.educaciencia.response.Situacao.situacao#phrase.navigation = {situacao} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.response.Situacao.toString()#phrase.navigation = {this}.toString()

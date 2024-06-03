@@ -1,0 +1,16 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "5ba9f6d3-cac2-4d70-9a72-b115f893bf21"
+package br.com.educaciencia.response;
+
+
+public class Motivos
+{
+    public string codigo;
+    public string motivo;
+    public string status;
+    public Motivos(string arg1, string arg2, string arg3);
+    public Motivos();
+}
+

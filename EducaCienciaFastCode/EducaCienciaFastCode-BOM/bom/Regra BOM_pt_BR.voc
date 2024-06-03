@@ -1,0 +1,9 @@
+# Vocabulary Properties
+uuid = 19651415-40bf-48cf-8199-8027c43849c1
+
+# br.com.educaciencia.response.Regra
+br.com.educaciencia.response.Regra#concept.label = regra
+br.com.educaciencia.response.Regra.motivo#phrase.action = atribuir os motivos {this,PARTITIVE_ARTICLE} a {motivo}
+br.com.educaciencia.response.Regra.motivo#phrase.navigation = {motivo} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.response.Regra.regra#phrase.action = atribuir o regra {this,PARTITIVE_ARTICLE} a {regra}
+br.com.educaciencia.response.Regra.regra#phrase.navigation = {regra} {this,PARTITIVE_ARTICLE}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.ibm.rules.studio.decisionservice.launching.DecisionOperation">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/EducaCienciaFastCode/implementação/EducaCienciaFastCode_OD"/>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_SIGN">
+<mapEntry key="Solicitacao_ODM" value="function br.com.educaciencia.request.Solicitacao_ODM get_Solicitacao_ODM_value()"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_VALUES">
+<mapEntry key="Solicitacao_ODM" value="String segmento = &quot;&quot;;&#10;String subSegmento = &quot;&quot;;&#10;int prazoCurto = 0; &#10;int prazoMinimo = 0; &#10;int prazoOpCredito = 0; &#10;int prazoTitulo = 0;&#10;String dataEmissao = &quot;2024-04-01&quot;;&#10;String produto = &quot;Caucao&quot;;&#10;String destinoAutomaticoTitulo = &quot;&quot;;&#10;double valorTitulo = 0.00;&#10;int qtdDiasProrrogarTitulo = 0;&#10;String clientecnpjCpf = &quot;String&quot;;&#10;String clienteTipoPessoa = &quot;&quot;;&#10;boolean clienteImpedido = true;&#10;boolean clientePermitido = true;&#10;int clienteTempoRelacionamento = 0;&#10;String clienteScore = &quot;&quot;;&#10;Double liquidezClienteAteVencto = 0.00;&#10;Double liquidezClienteAposVencto = 0.00;&#10;String fiadorCnpjCpf = &quot;&quot;;&#10;String fiadorTipoPessoa = &quot;&quot;;&#10;boolean fiadorImpedido = true;&#10;boolean fiadorPermitido = true;&#10;int fiadorTempoRelacionamento = 0;&#10;String fiadorScore = &quot;&quot;;&#10;Double liquidezFiadorAteVencto = 0.00;&#10;Double liquidezFiadorAposVencto = 0.00;&#10;br.com.educaciencia.request.Solicitacao_ODM result = new br.com.educaciencia.request.Solicitacao_ODM(new br.com.educaciencia.request.Classificacao(segmento,subSegmento),new br.com.educaciencia.request.Prazos(prazoCurto,prazoMinimo,prazoOpCredito,prazoTitulo),new br.com.educaciencia.request.Emissao(dataEmissao),produto,destinoAutomaticoTitulo,valorTitulo,qtdDiasProrrogarTitulo,clientecnpjCpf,clienteTipoPessoa, clienteImpedido, clientePermitido,clienteTempoRelacionamento,clienteScore,liquidezClienteAteVencto, liquidezClienteAposVencto,fiadorCnpjCpf, fiadorTipoPessoa,fiadorImpedido, fiadorPermitido,fiadorTempoRelacionamento, fiadorScore, liquidezFiadorAteVencto,liquidezFiadorAposVencto);&#10;return result;"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_NAMES">
+<mapEntry key="Solicitacao_ODM" value="Solicitacao_ODM"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_SIMPLE_VALUES">
+<mapEntry key="Solicitacao_ODM" value=""/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_TYPES">
+<mapEntry key="Solicitacao_ODM" value="2"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/EducaCienciaFastCode"/>
+<listEntry value="/EducaCienciaFastCode"/>
+<listEntry value="/EducaCienciaFastCode/implementação/EducaCienciaFastCode_OD.dop"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+<listEntry value="4"/>
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="EducaCienciaFastCode"/>
+</launchConfiguration>

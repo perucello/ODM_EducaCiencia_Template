@@ -1,0 +1,7 @@
+# Vocabulary Properties
+uuid = ffdbe33f-626e-4dec-802c-4f67e1bf758a
+
+# br.com.educaciencia.regra.Regra_Concentracao
+br.com.educaciencia.regra.Regra_Concentracao#concept.label = regra concentracao
+br.com.educaciencia.regra.Regra_Concentracao.calculo_ConcentracaoPCD_ConcentracaoSacadoCedente(int,int,int)#phrase.navigation = {this}.calculo_ConcentracaoPCD_ConcentracaoSacadoCedente({0}, {1}, {2})
+br.com.educaciencia.regra.Regra_Concentracao.calculo_ConcentracaoPolitica_Bonus(int,int,int)#phrase.navigation = {this}.calculo_ConcentracaoPolitica_Bonus({0}, {1}, {2})

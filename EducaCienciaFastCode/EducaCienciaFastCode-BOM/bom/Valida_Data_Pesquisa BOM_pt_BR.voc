@@ -1,0 +1,7 @@
+# Vocabulary Properties
+uuid = 1c634db8-0ce2-4dc8-8b72-c7b514d4ca99
+
+# br.com.educaciencia.regra.Valida_Data_Pesquisa
+br.com.educaciencia.regra.Valida_Data_Pesquisa#concept.label = valida data pesquisa
+br.com.educaciencia.regra.Valida_Data_Pesquisa.data#phrase.action = atribuir o data {this,PARTITIVE_ARTICLE} a {data}
+br.com.educaciencia.regra.Valida_Data_Pesquisa.data#phrase.navigation = {data} {this,PARTITIVE_ARTICLE}

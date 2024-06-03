@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;EducaCienciaFastCode/regras/01 - Regra_Valida_Dados_Entrada/Validando Dados.brl&apos; to &apos;1 - Validando Dados.brl&apos;" description="Rename resource &apos;Validando Dados.brl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="regras/01 - Regra_Valida_Dados_Entrada/Validando Dados.brl" name="1 - Validando Dados.brl" stamp="1714170701515" updateReferences="true"/>
+</session>

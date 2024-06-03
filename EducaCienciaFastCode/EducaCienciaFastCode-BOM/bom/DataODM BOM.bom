@@ -1,0 +1,15 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "3c51f1f1-e9c1-4347-b79b-c08993f3190d"
+package br.com.educaciencia.regra;
+
+
+public class DataODM
+{
+    public java.time.LocalDate dataODM;
+    public DataODM(java.time.LocalDate arg);
+    public DataODM();
+    public java.time.LocalDate dataPesquisaODM();
+}
+

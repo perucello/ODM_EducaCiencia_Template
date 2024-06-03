@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.dt:DecisionTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.dt="http://ilog.rules.studio/model/dt.ecore">
+  <name>99 - Tabela Valida Regras Aprovadas</name>
+  <uuid>d7b190cc-b78d-4618-8350-6ee4270c30a8</uuid>
+  <locale>pt_BR</locale>
+  <definition>
+<DT xmlns="http://schemas.ilog.com/Rules/7.0/DecisionTable" Version="7.0">
+  <Body>
+    <Properties>
+      <Property Name="Check.Gap" Type="xs:boolean"><![CDATA[false]]></Property>
+      <Property Name="Check.Overlap" Type="xs:boolean"><![CDATA[false]]></Property>
+      <Property Name="UI.ShowRuleView" Type="xs:boolean"><![CDATA[true]]></Property>
+    </Properties>
+    <Structure>
+      <ConditionDefinitions>
+        <ConditionDefinition Id="C0">
+          <ExpressionDefinition>
+            <Text><![CDATA[Valida_Fluxo_Aprovado é valida add aprovado lista regra 01 é verdadeiro é <um booleano>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C1">
+          <ExpressionDefinition>
+            <Text><![CDATA[Valida_Fluxo_Aprovado é valida add aprovado lista regra 02 é verdadeiro é <um booleano>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C2">
+          <ExpressionDefinition>
+            <Text><![CDATA[Valida_Fluxo_Aprovado é valida add aprovado lista regra 03 é verdadeiro é <um booleano>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C3">
+          <ExpressionDefinition>
+            <Text><![CDATA[Valida_Fluxo_Aprovado é valida add aprovado lista regra 04 é verdadeiro é <um booleano>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C4">
+          <ExpressionDefinition>
+            <Text><![CDATA[Valida_Fluxo_Aprovado é valida add aprovado lista regra 05 é verdadeiro é <um booleano>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+      </ConditionDefinitions>
+      <ActionDefinitions>
+        <ActionDefinition Id="A1">
+          <ExpressionDefinition>
+            <Text><![CDATA[Status_Aprovado .adicionarCondicaoAceiteAprovado_2 ( <uma cadeia> , <uma cadeia> , <uma cadeia> )]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A2">
+          <ExpressionDefinition>
+            <Text><![CDATA[CondicaoAceite_Aprovado .adicionarMotivos_Aprovado(Motivos_Aprovado )]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A3">
+          <ExpressionDefinition>
+            <Text><![CDATA[atribuir o status final de Status_Aprovado  a "aprovado"]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A6">
+          <ExpressionDefinition>
+            <Text><![CDATA[Apresentar "Linha: " + <uma cadeia>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+      </ActionDefinitions>
+    </Structure>
+    <Contents>
+      <Partition DefId="C0">
+        <Condition>
+          <Expression>
+            <Param><![CDATA[verdadeiro]]></Param>
+          </Expression>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression/>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression/>
+                  <Partition DefId="C3">
+                    <Condition>
+                      <Expression/>
+                      <ActionSet>
+                        <Action DefId="A1">
+                          <Expression>
+                            <Param><![CDATA["regra 01 - Condicao Aprovada"]]></Param>
+                            <Param><![CDATA["Regra 01 - sem motivos"]]></Param>
+                            <Param><![CDATA["aprovado"]]></Param>
+                          </Expression>
+                        </Action>
+                        <Action DefId="A2">
+                          <Expression/>
+                        </Action>
+                        <Action DefId="A3">
+                          <Expression/>
+                        </Action>
+                        <Action DefId="A6">
+                          <Expression>
+                            <Param><![CDATA["Regra 01 Aprovada"]]></Param>
+                          </Expression>
+                        </Action>
+                      </ActionSet>
+                    </Condition>
+                  </Partition>
+                </Condition>
+              </Partition>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression>
+                <Param><![CDATA[verdadeiro]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A1">
+                  <Expression>
+                    <Param><![CDATA["regra 02 - Condicao Aprovada"]]></Param>
+                    <Param><![CDATA["Regra 02 - sem motivos"]]></Param>
+                    <Param><![CDATA["aprovado"]]></Param>
+                  </Expression>
+                </Action>
+                <Action DefId="A2">
+                  <Expression/>
+                </Action>
+                <Action DefId="A3">
+                  <Expression/>
+                </Action>
+                <Action DefId="A6">
+                  <Expression>
+                    <Param><![CDATA["Regra 02 Aprovada"]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression/>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression>
+                    <Param><![CDATA[verdadeiro]]></Param>
+                  </Expression>
+                  <ActionSet>
+                    <Action DefId="A1">
+                      <Expression>
+                        <Param><![CDATA["regra 03 - Condicao Aprovada"]]></Param>
+                        <Param><![CDATA["Regra 03 - sem motivos"]]></Param>
+                        <Param><![CDATA["aprovado"]]></Param>
+                      </Expression>
+                    </Action>
+                    <Action DefId="A2">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A3">
+                      <Expression/>
+                    </Action>
+                    <Action DefId="A6">
+                      <Expression>
+                        <Param><![CDATA["Regra 03 Aprovada"]]></Param>
+                      </Expression>
+                    </Action>
+                  </ActionSet>
+                </Condition>
+              </Partition>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <Partition DefId="C1">
+            <Condition>
+              <Expression/>
+              <Partition DefId="C2">
+                <Condition>
+                  <Expression/>
+                  <Partition DefId="C3">
+                    <Condition>
+                      <Expression>
+                        <Param><![CDATA[verdadeiro]]></Param>
+                      </Expression>
+                      <ActionSet>
+                        <Action DefId="A1">
+                          <Expression>
+                            <Param><![CDATA["regra 04 - Condicao Aprovada"]]></Param>
+                            <Param><![CDATA["Regra 04 - sem motivos"]]></Param>
+                            <Param><![CDATA["aprovado"]]></Param>
+                          </Expression>
+                        </Action>
+                        <Action DefId="A2">
+                          <Expression/>
+                        </Action>
+                        <Action DefId="A3">
+                          <Expression/>
+                        </Action>
+                        <Action DefId="A6">
+                          <Expression>
+                            <Param><![CDATA["Regra 04 Aprovada"]]></Param>
+                          </Expression>
+                        </Action>
+                      </ActionSet>
+                    </Condition>
+                  </Partition>
+                </Condition>
+              </Partition>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <Partition DefId="C4">
+            <Condition>
+              <Expression>
+                <Param><![CDATA[verdadeiro]]></Param>
+              </Expression>
+              <ActionSet>
+                <Action DefId="A1">
+                  <Expression>
+                    <Param><![CDATA["regra 05 - Condicao Aprovada"]]></Param>
+                    <Param><![CDATA["Regra 05 - sem motivos"]]></Param>
+                    <Param><![CDATA["aprovado"]]></Param>
+                  </Expression>
+                </Action>
+                <Action DefId="A2">
+                  <Expression/>
+                </Action>
+                <Action DefId="A3">
+                  <Expression/>
+                </Action>
+                <Action DefId="A6">
+                  <Expression>
+                    <Param><![CDATA["Regra 05 Aprovada"]]></Param>
+                  </Expression>
+                </Action>
+              </ActionSet>
+            </Condition>
+          </Partition>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+      </Partition>
+    </Contents>
+  </Body>
+  <Resources DefaultLocale="pt_BR">
+    <ResourceSet Locale="pt_BR">
+      <Data Name="Definitions(A1)#HeaderText"><![CDATA[adicionarCondicaoAceiteAprovado_2]]></Data>
+      <Data Name="Definitions(A1)#Width"><![CDATA[349]]></Data>
+      <Data Name="Definitions(A1)[0]#HeaderText"><![CDATA[regra de CondicaoAceite]]></Data>
+      <Data Name="Definitions(A1)[1]#HeaderText"><![CDATA[Regra de Motivos]]></Data>
+      <Data Name="Definitions(A1)[2]#HeaderText"><![CDATA[Status Motivo]]></Data>
+      <Data Name="Definitions(A2)#HeaderText"><![CDATA[adicionarMotivos_Aprovado(Motivos_Aprovado ) ]]></Data>
+      <Data Name="Definitions(A2)#Width"><![CDATA[87]]></Data>
+      <Data Name="Definitions(A3)#HeaderText"><![CDATA[status final de Status_Aprovado  a "aprovado" ]]></Data>
+      <Data Name="Definitions(A3)#Width"><![CDATA[79]]></Data>
+      <Data Name="Definitions(A6)#Width"><![CDATA[79]]></Data>
+      <Data Name="Definitions(C0)#HeaderText"><![CDATA[Regra 01]]></Data>
+      <Data Name="Definitions(C0)#Width"><![CDATA[93]]></Data>
+      <Data Name="Definitions(C1)#HeaderText"><![CDATA[Regra 2]]></Data>
+      <Data Name="Definitions(C1)#Width"><![CDATA[95]]></Data>
+      <Data Name="Definitions(C2)#HeaderText"><![CDATA[Regra 3]]></Data>
+      <Data Name="Definitions(C2)#Width"><![CDATA[91]]></Data>
+      <Data Name="Definitions(C3)#HeaderText"><![CDATA[Regra 4]]></Data>
+      <Data Name="Definitions(C3)#Width"><![CDATA[93]]></Data>
+      <Data Name="Definitions(C4)#HeaderText"><![CDATA[Regra 5]]></Data>
+      <Data Name="Definitions(C4)#Width"><![CDATA[93]]></Data>
+    </ResourceSet>
+  </Resources>
+</DT>
+</definition>
+</ilog.rules.studio.model.dt:DecisionTable>

@@ -1,0 +1,17 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "f3ebcddd-80a4-4806-a6d8-6c88a1a19821"
+package br.com.educaciencia.request;
+
+
+public class Classificacao
+{
+    public string segmento;
+    public Segmento_Domain segmento_virtual;
+    public string subSegmento;
+    public Classificacao(string arg);
+    public Classificacao(string arg1, string arg2);
+    public Classificacao();
+}
+

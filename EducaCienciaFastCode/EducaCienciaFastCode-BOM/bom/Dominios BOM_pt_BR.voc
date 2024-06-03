@@ -1,0 +1,42 @@
+# Vocabulary Properties
+uuid = 073db236-2d6e-4b41-b4a2-cd3b5e96ac31
+
+# Produto_Domain
+Produto_Domain#concept.label = produto domain
+Produto_Domain.Produto1#instance.documentation = Produto1
+Produto_Domain.Produto1#instance.label = Produto 1
+Produto_Domain.Produto2#instance.documentation = Produto2
+Produto_Domain.Produto2#instance.label = Produto 2
+Produto_Domain.Produto3#instance.documentation = Produto3
+Produto_Domain.Produto3#instance.label = Produto 3
+Produto_Domain.Produto4#instance.documentation = Produto4
+Produto_Domain.Produto4#instance.label = Produto 4
+
+# Segmento_Domain
+Segmento_Domain#concept.label = Segmento_Domain
+Segmento_Domain.Segmento1#instance.documentation = Segmento1
+Segmento_Domain.Segmento1#instance.label = Segmento 1
+Segmento_Domain.Segmento2#instance.documentation = Segmento2
+Segmento_Domain.Segmento2#instance.label = Segmento 2
+Segmento_Domain.Segmento3#instance.documentation = Segmento3
+Segmento_Domain.Segmento3#instance.label = Segmento 3
+
+# Status_Domain
+Status_Domain#concept.label = Status_Domain
+Status_Domain.aprovar#instance.documentation = aprovar
+Status_Domain.aprovar#instance.label = aprovar
+Status_Domain.manual#instance.documentation = manual
+Status_Domain.manual#instance.label = manual
+Status_Domain.rejeitar#instance.documentation = rejeitar
+Status_Domain.rejeitar#instance.label = rejeitar
+Status_Domain.reprovar#instance.documentation = reprovar
+Status_Domain.reprovar#instance.label = reprovar
+
+# SubSegmento_Domain
+SubSegmento_Domain#concept.label = SubSegmento_Domain
+SubSegmento_Domain.Sub_Segmento1#instance.documentation = Sub_Segmento1
+SubSegmento_Domain.Sub_Segmento1#instance.label = Sub_Segmento 1
+SubSegmento_Domain.Sub_Segmento2#instance.documentation = Sub_Segmento2
+SubSegmento_Domain.Sub_Segmento2#instance.label = Sub_Segmento 2
+SubSegmento_Domain.Sub_Segmento3#instance.documentation = Sub_Segmento3
+SubSegmento_Domain.Sub_Segmento3#instance.label = Sub_Segmento 3

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/liquidezClienteAteVencto/GETTER#0">
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/clientecnpjCpf/GETTER#0">
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.regra.Dias_Relacionamento">
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.regra.Dias_Relacionamento/result_dias_odm_boolean(java.lang.String,int)/NAVIGATION#0">
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.request.Classificacao/segmento_virtual/GETTER#0">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/produto/GETTER#0">
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado/adicionarMotivos_Aprovado(br.com.educaciencia.response.aprovado.Motivos_Aprovado)/ACTION#0">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/emissao/GETTER#0">
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_04/PREDICATE#0">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Motivos_Aprovado">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_05/PREDICATE#0">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.Status">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_01/PREDICATE_SETTER#0">
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+        </vocElt>
+        <vocElt id="Segmento_Domain/Segmento1">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_02/PREDICATE_SETTER#0">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="Segmento_Domain/Segmento2">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_02/PREDICATE#0">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_03/PREDICATE#0">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Status_Aprovado/adicionarCondicaoAceiteAprovado_2(java.lang.String,java.lang.String,java.lang.String)/ACTION#0">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.Motivos">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/valorTitulo/GETTER#0">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_01/PREDICATE#0">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.request.Classificacao">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.Status/status_final/SETTER#0">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.CondicaoAceite/adicionarMotivo(br.com.educaciencia.response.Motivos)/ACTION#0">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Status_Aprovado/status_final/SETTER#0">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.request.Emissao/dataEmissao/GETTER#0">
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+        </vocElt>
+        <vocElt id="Segmento_Domain">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.Status/adicionarCondicaoAceite_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/ACTION#0">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/fiadorCnpjCpf/GETTER#0">
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.request.Solicitacao_ODM">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.CondicaoAceite">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.Status/status_final/GETTER#0">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocElt>
+        <vocElt id="br.com.educaciencia.response.aprovado.Status_Aprovado">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8">
+            <vocElt id="br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Status_Aprovado/status_final/SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_02/PREDICATE#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_03/PREDICATE#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Status_Aprovado/adicionarCondicaoAceiteAprovado_2(java.lang.String,java.lang.String,java.lang.String)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado/adicionarMotivos_Aprovado(br.com.educaciencia.response.aprovado.Motivos_Aprovado)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_04/PREDICATE#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Motivos_Aprovado"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Status_Aprovado"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_01/PREDICATE#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_05/PREDICATE#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado"/>
+        </rule>
+        <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23">
+            <vocElt id="br.com.educaciencia.response.Status"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite/adicionarMotivo(br.com.educaciencia.response.Motivos)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_02/PREDICATE_SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.Status/adicionarCondicaoAceite_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite"/>
+            <vocElt id="br.com.educaciencia.response.Motivos"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado"/>
+        </rule>
+        <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660">
+            <vocElt id="br.com.educaciencia.response.Status"/>
+            <vocElt id="Segmento_Domain/Segmento1"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_02/PREDICATE_SETTER#0"/>
+            <vocElt id="Segmento_Domain/Segmento2"/>
+            <vocElt id="br.com.educaciencia.response.Motivos"/>
+            <vocElt id="br.com.educaciencia.request.Classificacao/segmento_virtual/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/valorTitulo/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.request.Classificacao"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite/adicionarMotivo(br.com.educaciencia.response.Motivos)/ACTION#0"/>
+            <vocElt id="Segmento_Domain"/>
+            <vocElt id="br.com.educaciencia.response.Status/adicionarCondicaoAceite_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado"/>
+        </rule>
+        <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c">
+            <vocElt id="br.com.educaciencia.response.Status"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite/adicionarMotivo(br.com.educaciencia.response.Motivos)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_02/PREDICATE_SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.Status/adicionarCondicaoAceite_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite"/>
+            <vocElt id="br.com.educaciencia.response.Motivos"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado"/>
+        </rule>
+        <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3">
+            <vocElt id="br.com.educaciencia.response.Status"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite/adicionarMotivo(br.com.educaciencia.response.Motivos)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_02/PREDICATE_SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.Status/adicionarCondicaoAceite_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/fiadorCnpjCpf/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/clientecnpjCpf/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite"/>
+            <vocElt id="br.com.educaciencia.response.Motivos"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado"/>
+        </rule>
+        <rule id="868a054f-37da-4d5b-bae2-418496c8e609">
+            <vocElt id="br.com.educaciencia.response.Status"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_01/PREDICATE_SETTER#0"/>
+            <vocElt id="br.com.educaciencia.regra.Dias_Relacionamento"/>
+            <vocElt id="br.com.educaciencia.response.Motivos"/>
+            <vocElt id="br.com.educaciencia.regra.Dias_Relacionamento/result_dias_odm_boolean(java.lang.String,int)/NAVIGATION#0"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite/adicionarMotivo(br.com.educaciencia.response.Motivos)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.request.Emissao/dataEmissao/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.Status/adicionarCondicaoAceite_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/emissao/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado"/>
+        </rule>
+        <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7">
+            <vocElt id="br.com.educaciencia.response.Status"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite/adicionarMotivo(br.com.educaciencia.response.Motivos)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_01/PREDICATE_SETTER#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/produto/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.Status/adicionarCondicaoAceite_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite"/>
+            <vocElt id="br.com.educaciencia.response.Motivos"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado"/>
+        </rule>
+        <rule id="4c57042b-1292-4053-b8f1-453b97e01027">
+            <vocElt id="br.com.educaciencia.response.Status"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/liquidezClienteAteVencto/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado/valida_add_Aprovado_lista_regra_02/PREDICATE_SETTER#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/clientecnpjCpf/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.Motivos"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/SETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite/adicionarMotivo(br.com.educaciencia.response.Motivos)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.response.Status/adicionarCondicaoAceite_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/ACTION#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM/fiadorCnpjCpf/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.request.Solicitacao_ODM"/>
+            <vocElt id="br.com.educaciencia.response.CondicaoAceite"/>
+            <vocElt id="br.com.educaciencia.response.Status/status_final/GETTER#0"/>
+            <vocElt id="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="Status">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </param>
+        <param id="CondicaoAceite">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </param>
+        <param id="validaDataRelacionamento">
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+        </param>
+        <param id="Valida_Fluxo_Aprovado">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </param>
+        <param id="Solicitacao">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </param>
+        <param id="Classificacao">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+        </param>
+        <param id="CondicaoAceite_Aprovado">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </param>
+        <param id="Dias_Relacionamento">
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+        </param>
+        <param id="Motivos">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </param>
+        <param id="Status_Aprovado">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </param>
+        <param id="Motivos_Aprovado">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8">
+            <param id="Valida_Fluxo_Aprovado"/>
+            <param id="CondicaoAceite_Aprovado"/>
+            <param id="Status_Aprovado"/>
+            <param id="Motivos_Aprovado"/>
+        </rule>
+        <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23">
+            <param id="Status"/>
+            <param id="CondicaoAceite"/>
+            <param id="Valida_Fluxo_Aprovado"/>
+            <param id="Motivos"/>
+        </rule>
+        <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660">
+            <param id="Status"/>
+            <param id="CondicaoAceite"/>
+            <param id="Valida_Fluxo_Aprovado"/>
+            <param id="Classificacao"/>
+            <param id="Solicitacao"/>
+            <param id="Motivos"/>
+        </rule>
+        <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c">
+            <param id="Status"/>
+            <param id="CondicaoAceite"/>
+            <param id="Valida_Fluxo_Aprovado"/>
+            <param id="Motivos"/>
+        </rule>
+        <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3">
+            <param id="Status"/>
+            <param id="CondicaoAceite"/>
+            <param id="Valida_Fluxo_Aprovado"/>
+            <param id="Solicitacao"/>
+            <param id="Motivos"/>
+        </rule>
+        <rule id="868a054f-37da-4d5b-bae2-418496c8e609">
+            <param id="Status"/>
+            <param id="CondicaoAceite"/>
+            <param id="validaDataRelacionamento"/>
+            <param id="Valida_Fluxo_Aprovado"/>
+            <param id="Solicitacao"/>
+            <param id="Dias_Relacionamento"/>
+            <param id="Motivos"/>
+        </rule>
+        <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7">
+            <param id="Status"/>
+            <param id="CondicaoAceite"/>
+            <param id="Valida_Fluxo_Aprovado"/>
+            <param id="Solicitacao"/>
+            <param id="Motivos"/>
+        </rule>
+        <rule id="4c57042b-1292-4053-b8f1-453b97e01027">
+            <param id="Status"/>
+            <param id="CondicaoAceite"/>
+            <param id="Valida_Fluxo_Aprovado"/>
+            <param id="Solicitacao"/>
+            <param id="Motivos"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="3c2e97a3-ab57-4cc9-801a-6f1bf4dfc405">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/EducaCienciaFastCode-BOM/bom/Status_Aprovado BOM_pt_BR.voc" id="98ff0ddd-a074-429c-89c4-fe3be2a1db42">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocFile>
+        <vocFile file="/EducaCienciaFastCode-BOM/bom/CondicaoAceite_Aprovado BOM_pt_BR.voc" id="25bb6971-b60d-493a-adad-0343f134ad71">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        </vocFile>
+        <vocFile file="/EducaCienciaFastCode-BOM/bom/Dominios BOM_pt_BR.voc" id="073db236-2d6e-4b41-b4a2-cd3b5e96ac31">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+        </vocFile>
+        <vocFile file="/EducaCienciaFastCode-BOM/bom/Dias_Relacionamento BOM_pt_BR.voc" id="e5cf8b5f-9572-4226-98fa-93f981f43adc">
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+        </vocFile>
+        <vocFile file="/EducaCienciaFastCode-BOM/bom/CondicaoAceite BOM_pt_BR.voc" id="f6bc89a9-549b-40fe-ac58-6af291902849">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocFile>
+        <vocFile file="/EducaCienciaFastCode-BOM/bom/Status BOM_pt_BR.voc" id="4463a055-23f2-4ea9-9fee-9640e5e25b26">
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocFile>
+        <vocFile file="/EducaCienciaFastCode-BOM/bom/Classificacao BOM_pt_BR.voc" id="7d7a3e66-c421-406e-a546-4b229edfc5b0">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+        </vocFile>
+        <vocFile file="/EducaCienciaFastCode-BOM/bom/Valida_Fluxo_Aprovado BOM_pt_BR.voc" id="6554d777-3586-4ff1-a66e-676f1020e0eb">
+            <rule id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+            <rule id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocFile>
+        <vocFile file="/EducaCienciaFastCode-BOM/bom/Solicitacao_ODM BOM_pt_BR.voc" id="ae1f37e4-1d14-4e2d-b7cf-acd1d5e3404d">
+            <rule id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+            <rule id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+            <rule id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+            <rule id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/EducaCienciaFastCode/regras/99 - Testes EducaCienciaFastCode/Tabela00 - Excecoes da Regra.dta" id="64330649-19c4-48b4-9ee1-ac2b7d4ccbd3"/>
+        <resource file="/EducaCienciaFastCode/regras/99 - Testes EducaCienciaFastCode/Tabela04 - Excecoes da Regra.dta" id="fa48bcd1-182a-4bc6-863f-3ae2ade0ca23"/>
+        <resource file="/EducaCienciaFastCode/regras/99 - Testes EducaCienciaFastCode/Tabela02 - Excecoes da Regra.dta" id="4c57042b-1292-4053-b8f1-453b97e01027"/>
+        <resource file="/EducaCienciaFastCode/regras/06 - Tabelas de Decisoes/01 - Dias Relacionamento.dta" id="868a054f-37da-4d5b-bae2-418496c8e609"/>
+        <resource file="/EducaCienciaFastCode/regras/06 - Tabelas de Decisoes/99 - Tabela Valida Regras Aprovadas.dta" id="d7b190cc-b78d-4618-8350-6ee4270c30a8"/>
+        <resource file="/EducaCienciaFastCode/regras/99 - Testes EducaCienciaFastCode/Tabela03 - Excecoes da Regra.dta" id="a4db1d46-f78c-470d-8bab-655b7ea96660"/>
+        <resource file="/EducaCienciaFastCode/regras/99 - Testes EducaCienciaFastCode/Tabela01 - Excecoes da Regra.dta" id="febcbe1f-c44d-47b4-90bb-78a8a9304ca7"/>
+        <resource file="/EducaCienciaFastCode/regras/99 - Testes EducaCienciaFastCode/Tabela05 - Excecoes da Regra.dta" id="a72f8272-3dde-4b9e-b80d-3a44faab912c"/>
+    </resourceTable>
+</impactTables>

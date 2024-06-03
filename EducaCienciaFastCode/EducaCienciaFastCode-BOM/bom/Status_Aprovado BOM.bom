@@ -1,0 +1,18 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "c35d8cf5-b7c6-4523-b51f-c8dc7406f4f8"
+package br.com.educaciencia.response.aprovado;
+
+
+public class Status_Aprovado
+{
+    public java.util.List condicaoAceite domain 0,* class br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado;
+    public string status_final;
+    public Status_Aprovado(string arg1, 
+        java.util.List arg2 domain 0,* class br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado);
+    public Status_Aprovado();
+    public void adicionarCondicaoAceiteAprovado_2(string arg1, string arg2, string arg3);
+    public void mostrarLista_ODM_aprovados();
+}
+

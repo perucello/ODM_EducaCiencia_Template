@@ -1,0 +1,60 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "dff23f1f-5ca9-4cb0-8f5c-9dfeb34a389b"
+package br.com.educaciencia.request;
+
+
+public class Solicitacao_ODM
+{
+    public boolean clienteImpedido;
+    public boolean clientePermitido;
+    public string clienteScore;
+    public int clienteTempoRelacionamento;
+    public string clienteTipoPessoa;
+    public string clientecnpjCpf;
+    public string destinoAutomaticoTitulo;
+    public br.com.educaciencia.request.Emissao emissao;
+    public string fiadorCnpjCpf;
+    public boolean fiadorImpedido;
+    public boolean fiadorPermitido;
+    public string fiadorScore;
+    public int fiadorTempoRelacionamento;
+    public string fiadorTipoPessoa;
+    public java.lang.Double liquidezClienteAposVencto;
+    public java.lang.Double liquidezClienteAteVencto;
+    public java.lang.Double liquidezFiadorAposVencto;
+    public java.lang.Double liquidezFiadorAteVencto;
+    public br.com.educaciencia.request.Prazos prazo_Curto;
+    public string produto;
+    public Produto_Domain produto_virtual;
+    public int qtdDiasProrrogarTitulo;
+    public br.com.educaciencia.request.Classificacao segmento;
+    public double valorTitulo;
+    public Solicitacao_ODM(br.com.educaciencia.request.Classificacao arg1, 
+        br.com.educaciencia.request.Prazos arg2, 
+        br.com.educaciencia.request.Emissao arg3, 
+        string arg4, 
+        string arg5, 
+        double arg6, 
+        int arg7, 
+        string arg8, 
+        string arg9, 
+        boolean arg10, 
+        boolean arg11, 
+        int arg12, 
+        string arg13, 
+        java.lang.Double arg14, 
+        java.lang.Double arg15, 
+        string arg16, 
+        string arg17, 
+        boolean arg18, 
+        boolean arg19, 
+        int arg20, 
+        string arg21, 
+        java.lang.Double arg22, 
+        java.lang.Double arg23);
+    public Solicitacao_ODM();
+    public void converter(double arg);
+}
+

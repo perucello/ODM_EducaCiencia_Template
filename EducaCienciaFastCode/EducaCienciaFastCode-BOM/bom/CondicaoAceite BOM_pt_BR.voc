@@ -1,0 +1,10 @@
+# Vocabulary Properties
+uuid = f6bc89a9-549b-40fe-ac58-6af291902849
+
+# br.com.educaciencia.response.CondicaoAceite
+br.com.educaciencia.response.CondicaoAceite#concept.label = condicao aceite
+br.com.educaciencia.response.CondicaoAceite.adicionarMotivo(br.com.educaciencia.response.Motivos)#phrase.action = {this}.adicionarMotivo({0})
+br.com.educaciencia.response.CondicaoAceite.motivos#phrase.action = atribuir os motivos {this, PARTITIVE_ARTICLE} a {motivo}
+br.com.educaciencia.response.CondicaoAceite.motivos#phrase.navigation = {motivo} {this, PARTITIVE_ARTICLE}
+br.com.educaciencia.response.CondicaoAceite.regra#phrase.action = atribuir o regra {this, PARTITIVE_ARTICLE} a {regra}
+br.com.educaciencia.response.CondicaoAceite.regra#phrase.navigation = {regra} {this, PARTITIVE_ARTICLE}

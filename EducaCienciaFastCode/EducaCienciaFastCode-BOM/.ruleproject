@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RuleProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" xmlns:ilog.rules.studio.model.bom="http://ilog.rules.studio/model/bom.ecore" xmlns:ilog.rules.studio.model.query="http://ilog.rules.studio/model/query.ecore" xmlns:ilog.rules.studio.model.rule="http://ilog.rules.studio/model/rule.ecore" xmlns:ilog.rules.studio.model.xom="http://ilog.rules.studio/model/xom.ecore" buildMode="DecisionEngine" migrationFlag="3">
+  <name>EducaCienciaFastCode-BOM</name>
+  <uuid>c20d0bda-fbab-4037-b599-72c60ce2db2d</uuid>
+  <outputLocation>saída</outputLocation>
+  <categories>any</categories>
+  <paths xsi:type="ilog.rules.studio.model.xom:XOMPath" pathID="XOM">
+    <entries xsi:type="ilog.rules.studio.model.xom:LibraryXOMPathEntry" name="org.eclipse.jdt.launching.JRE_CONTAINER" url="file:org.eclipse.jdt.launching.JRE_CONTAINER" kind="LIBRARY" exported="false"/>
+    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="EducaCienciaFastCode-XOM" url="platform:/EducaCienciaFastCode-XOM" kind="JAVA_PROJECT" exported="true"/>
+  </paths>
+  <paths xsi:type="ilog.rules.studio.model.bom:BOMPath" pathID="BOM">
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Prazos BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Prazos BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Emissao BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Emissao BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="RegraDadosCodComments1 BOM" url="platform:/EducaCienciaFastCode-BOM/bom/RegraDadosCodComments1 BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="RegraDadosCodComments2 BOM" url="platform:/EducaCienciaFastCode-BOM/bom/RegraDadosCodComments2 BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="RegraDadosCodComments3 BOM" url="platform:/EducaCienciaFastCode-BOM/bom/RegraDadosCodComments3 BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="RegraDadosCodComments4 BOM" url="platform:/EducaCienciaFastCode-BOM/bom/RegraDadosCodComments4 BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="RegraDadosCodComments5 BOM" url="platform:/EducaCienciaFastCode-BOM/bom/RegraDadosCodComments5 BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="DataODM BOM" url="platform:/EducaCienciaFastCode-BOM/bom/DataODM BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Dias_Relacionamento BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Dias_Relacionamento BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Regra_Concentracao BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Regra_Concentracao BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Trata_nulo BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Trata_nulo BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Valida_Data_Pesquisa BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Valida_Data_Pesquisa BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="CondicaoAceite BOM" url="platform:/EducaCienciaFastCode-BOM/bom/CondicaoAceite BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Motivos BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Motivos BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Regra BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Regra BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Situacao BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Situacao BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Status BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Status BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Valida_Solicitacao BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Valida_Solicitacao BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="CondicaoAceite_Aprovado BOM" url="platform:/EducaCienciaFastCode-BOM/bom/CondicaoAceite_Aprovado BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Motivos_Aprovado BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Motivos_Aprovado BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Regra_Aprovado BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Regra_Aprovado BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Status_Aprovado BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Status_Aprovado BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Valida_Fluxo_Aprovado BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Valida_Fluxo_Aprovado BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Dominios BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Dominios BOM.bom"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Solicitacao_ODM BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Solicitacao_ODM BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="Classificacao BOM" url="platform:/EducaCienciaFastCode-BOM/bom/Classificacao BOM.bom" origin="xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"/>
+  </paths>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:SourceFolder">
+    <name>regras</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.bom:BOMFolder">
+    <name>bom</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.rule:TemplateFolder">
+    <name>modelos</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.query:QueryFolder">
+    <name>consultas</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:ResourceFolder">
+    <name>recursos</name>
+  </modelFolders>
+  <modelFolders xsi:type="com.ibm.rules.studio.model.decisionservice:OperationFolder">
+    <name>implementação</name>
+  </modelFolders>
+</ilog.rules.studio.model.base:RuleProject>

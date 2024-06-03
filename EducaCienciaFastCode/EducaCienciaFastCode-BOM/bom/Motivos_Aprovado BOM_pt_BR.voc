@@ -1,0 +1,9 @@
+# Vocabulary Properties
+uuid = c18e853f-4d4c-49aa-bb46-603b5e6e4b76
+
+# br.com.educaciencia.response.aprovado.Motivos_Aprovado
+br.com.educaciencia.response.aprovado.Motivos_Aprovado#concept.label = motivos aprovado
+br.com.educaciencia.response.aprovado.Motivos_Aprovado.regra#phrase.action = atribuir o regra {this,PARTITIVE_ARTICLE} a {regra}
+br.com.educaciencia.response.aprovado.Motivos_Aprovado.regra#phrase.navigation = {regra} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.response.aprovado.Motivos_Aprovado.status#phrase.action = atribuir o status {this,PARTITIVE_ARTICLE} a {status}
+br.com.educaciencia.response.aprovado.Motivos_Aprovado.status#phrase.navigation = {status} {this,PARTITIVE_ARTICLE}

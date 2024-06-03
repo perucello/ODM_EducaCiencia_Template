@@ -1,0 +1,18 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "ad61015f-85ee-4cab-8e09-69cdf1061c25"
+package br.com.educaciencia.regra;
+
+
+public class Dias_Relacionamento
+{
+    public string data_request_calcula;
+    public int regra_dias_relacionamento;
+    public boolean result_odm;
+    public Dias_Relacionamento(string arg1, boolean arg2);
+    public Dias_Relacionamento();
+    public boolean result_dias_odm_boolean(string arg1, int arg2);
+    public boolean result_dias_odm_boolean_regra(string arg1, int arg2);
+}
+

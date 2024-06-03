@@ -1,0 +1,17 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "3ad6e824-e9c0-42c7-9834-5eeb1cdf4abc"
+package br.com.educaciencia.request;
+
+
+public class Prazos
+{
+    public int prazoCurto;
+    public int prazoMinimo;
+    public int prazoOpCredito;
+    public int prazoTitulo;
+    public Prazos(int arg1, int arg2, int arg3, int arg4);
+    public Prazos();
+}
+

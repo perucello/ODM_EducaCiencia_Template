@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>1 - Validando Dados</name>
+  <uuid>319d2053-cd8f-4398-a1fb-fe24dd44cb32</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	o clientecnpj cpf de Solicitacao não é "" ou
+	o fiador cnpj cpf de Solicitacao não é "" 
+então 
+	 atribuir à validaDados o valor verdadeiro ;   
+	 Apresentar "****** dados de requisição são validos ****** ";  
+senão  
+	 atribuir à validaDados o valor falso  ; 
+	 Apresentar "******  dados de requisição NÃO são validos ****** ";
+	 atribuir o status final de Status a "Dados incorretos na requisição";
+	 ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

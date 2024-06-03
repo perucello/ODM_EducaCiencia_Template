@@ -1,0 +1,10 @@
+# Vocabulary Properties
+uuid = 25bb6971-b60d-493a-adad-0343f134ad71
+
+# br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado
+br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado#concept.label = condicao aceite aprovado
+br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado.adicionarMotivos_Aprovado(br.com.educaciencia.response.aprovado.Motivos_Aprovado)#phrase.action = {this}.adicionarMotivos_Aprovado({0})
+br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado.motivos_Aprovado#phrase.action = atribuir os motivos aprovado {this, PARTITIVE_ARTICLE} a {motivos aprovado}
+br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado.motivos_Aprovado#phrase.navigation = {motivos aprovado} {this, PARTITIVE_ARTICLE}
+br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado.regra#phrase.action = atribuir o regra {this, PARTITIVE_ARTICLE} a {regra}
+br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado.regra#phrase.navigation = {regra} {this, PARTITIVE_ARTICLE}

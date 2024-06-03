@@ -1,0 +1,16 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.3/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.3/Translation ilog/rules/schemas/1_3/b2x.xsd">
+    <id>1464fef8-159b-404c-9e1d-a108492eb07d</id>
+    <lang>ARL</lang>
+    <class>
+        <businessName>br.com.educaciencia.request.Classificacao</businessName>
+        <attribute>
+            <name>segmento_virtual</name>
+            <getter language="arl"><![CDATA[
+            return this.segmento;
+            ]]></getter>
+            <setter language="arl"><![CDATA[
+            this.segmento = value;
+            ]]></setter>
+        </attribute>
+    </class>
+</b2x:translation>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.dt:DecisionTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.dt="http://ilog.rules.studio/model/dt.ecore">
+  <name>Tabela01 - Excecoes da Regra</name>
+  <uuid>febcbe1f-c44d-47b4-90bb-78a8a9304ca7</uuid>
+  <locale>pt_BR</locale>
+  <definition>
+<DT Version="7.0" xmlns="http://schemas.ilog.com/Rules/7.0/DecisionTable">
+  <Body>
+    <Properties>
+      <Property Name="Check.Gap" Type="xs:boolean"><![CDATA[false]]></Property>
+      <Property Name="Check.Overlap" Type="xs:boolean"><![CDATA[false]]></Property>
+      <Property Name="UI.ShowRuleView" Type="xs:boolean"><![CDATA[true]]></Property>
+    </Properties>
+    <Structure>
+      <ConditionDefinitions>
+        <ConditionDefinition Id="C1">
+          <ExpressionDefinition>
+            <Text><![CDATA[o produto de Solicitacao é <um objeto>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+      </ConditionDefinitions>
+      <ActionDefinitions>
+        <ActionDefinition Id="A7">
+          <ExpressionDefinition>
+            <Text><![CDATA[atribuir o status final de Status  a <uma cadeia>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A4">
+          <ExpressionDefinition>
+            <Text><![CDATA[Status .adicionarCondicaoAceite_2 ( <uma cadeia> , o status final de Status, <uma cadeia> , <uma cadeia> )]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A2">
+          <ExpressionDefinition>
+            <Text><![CDATA[CondicaoAceite .adicionarMotivo(Motivos )]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A0">
+          <ExpressionDefinition>
+            <Text><![CDATA[colocar à falso  que Valida_Fluxo_Aprovado é valida add aprovado lista regra 01]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A3">
+          <ExpressionDefinition>
+            <Text><![CDATA[Apresentar "Linha: " + <uma cadeia>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+      </ActionDefinitions>
+    </Structure>
+    <Contents>
+      <Partition DefId="C1">
+        <Condition>
+          <Expression>
+            <Param><![CDATA["Produto 1"]]></Param>
+          </Expression>
+          <ActionSet>
+            <Action DefId="A7">
+              <Expression>
+                <Param><![CDATA["rejeitar"]]></Param>
+              </Expression>
+            </Action>
+            <Action DefId="A4">
+              <Expression>
+                <Param><![CDATA["Regra Tabela01 - Prod1"]]></Param>
+                <Param><![CDATA["1"]]></Param>
+                <Param><![CDATA["Produto deve ser rejeitado"]]></Param>
+              </Expression>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression>
+                <Param><![CDATA["001 - Tabela01"]]></Param>
+              </Expression>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+      </Partition>
+    </Contents>
+  </Body>
+  <Resources DefaultLocale="pt_BR">
+    <ResourceSet Locale="pt_BR">
+      <Data Name="Definitions(A0)#HeaderText"><![CDATA[colocar à falso  que Valida_Fluxo_Aprovado é valida add aprovado lista]]></Data>
+      <Data Name="Definitions(A0)#Width"><![CDATA[128]]></Data>
+      <Data Name="Definitions(A2)#HeaderText"><![CDATA[CondicaoAceite .adicionarMotivo(Motivos ) ]]></Data>
+      <Data Name="Definitions(A2)#Width"><![CDATA[144]]></Data>
+      <Data Name="Definitions(A3)#HeaderText"><![CDATA[Apresentar "Linha: " + <uma cadeia> ]]></Data>
+      <Data Name="Definitions(A3)#Width"><![CDATA[127]]></Data>
+      <Data Name="Definitions(A4)#HeaderText"><![CDATA[Status .adicionarCondicaoAceite_2 ]]></Data>
+      <Data Name="Definitions(A4)#Width"><![CDATA[456]]></Data>
+      <Data Name="Definitions(A4)[0]#HeaderText"><![CDATA[Regra]]></Data>
+      <Data Name="Definitions(A4)[1]#HeaderText"><![CDATA[Codigo]]></Data>
+      <Data Name="Definitions(A4)[2]#HeaderText"><![CDATA[Motivo]]></Data>
+      <Data Name="Definitions(A7)#HeaderText"><![CDATA[atribuir o regra de Status]]></Data>
+      <Data Name="Definitions(A7)#Width"><![CDATA[135]]></Data>
+      <Data Name="Definitions(C1)#HeaderText"><![CDATA[produto]]></Data>
+      <Data Name="Definitions(C1)#Width"><![CDATA[104]]></Data>
+    </ResourceSet>
+  </Resources>
+</DT>
+</definition>
+</ilog.rules.studio.model.dt:DecisionTable>

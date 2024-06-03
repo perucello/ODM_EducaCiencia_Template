@@ -1,0 +1,29 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "df12ef6e-ead6-4679-bfbe-b9243c8bb600"
+package br.com.educaciencia.response.aprovado;
+
+
+public class Valida_Fluxo_Aprovado
+{
+    public boolean valida_add_Aprovado_lista_regra_01;
+    public boolean valida_add_Aprovado_lista_regra_02;
+    public boolean valida_add_Aprovado_lista_regra_03;
+    public boolean valida_add_Aprovado_lista_regra_04;
+    public boolean valida_add_Aprovado_lista_regra_05;
+    public boolean valida_add_Aprovado_lista_regra_06;
+    public boolean valida_add_Aprovado_lista_regra_07;
+    public boolean valida_add_Aprovado_lista_regra_08;
+    public boolean valida_add_Aprovado_lista_regra_09;
+    public boolean valida_add_Aprovado_lista_regra_10;
+    public boolean valida_add_Aprovado_lista_regra_11;
+    public boolean valida_add_Aprovado_lista_regra_12;
+    public boolean valida_add_Aprovado_lista_regra_13;
+    public boolean valida_add_Aprovado_lista_regra_14;
+    public boolean valida_add_Aprovado_lista_regra_15;
+    public Valida_Fluxo_Aprovado(boolean arg);
+    public Valida_Fluxo_Aprovado(boolean arg1, boolean arg2, boolean arg3, boolean arg4, boolean arg5, boolean arg6, boolean arg7, boolean arg8, boolean arg9, boolean arg10, boolean arg11, boolean arg12, boolean arg13, boolean arg14, boolean arg15);
+    public Valida_Fluxo_Aprovado();
+}
+

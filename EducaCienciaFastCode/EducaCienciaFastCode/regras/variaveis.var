@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>variaveis</name>
+  <uuid>3c2e97a3-ab57-4cc9-801a-6f1bf4dfc405</uuid>
+  <variables name="Prazos" type="br.com.educaciencia.request.Prazos" initialValue="" verbalization="Prazos"/>
+  <variables name="Emissao" type="br.com.educaciencia.request.Emissao" initialValue="" verbalization="Emissao"/>
+  <variables name="RegraDadosCodComments1" type="br.com.educaciencia.comentarios.RegraDadosCodComments1" initialValue="new br.com.educaciencia.comentarios.RegraDadosCodComments1()" verbalization="RegraDadosCodComments1"/>
+  <variables name="RegraDadosCodComments2" type="br.com.educaciencia.comentarios.RegraDadosCodComments2" initialValue="new br.com.educaciencia.comentarios.RegraDadosCodComments2()" verbalization="RegraDadosCodComments2"/>
+  <variables name="RegraDadosCodComments3" type="br.com.educaciencia.comentarios.RegraDadosCodComments3" initialValue="new br.com.educaciencia.comentarios.RegraDadosCodComments3()" verbalization="RegraDadosCodComments3"/>
+  <variables name="RegraDadosCodComments4" type="br.com.educaciencia.comentarios.RegraDadosCodComments4" initialValue="new br.com.educaciencia.comentarios.RegraDadosCodComments4()" verbalization="RegraDadosCodComments4"/>
+  <variables name="RegraDadosCodComments5" type="br.com.educaciencia.comentarios.RegraDadosCodComments5" initialValue="new br.com.educaciencia.comentarios.RegraDadosCodComments5()" verbalization="RegraDadosCodComments5"/>
+  <variables name="DataODM" type="br.com.educaciencia.regra.DataODM" initialValue="new br.com.educaciencia.regra.DataODM()" verbalization="DataODM"/>
+  <variables name="Dias_Relacionamento" type="br.com.educaciencia.regra.Dias_Relacionamento" initialValue="new br.com.educaciencia.regra.Dias_Relacionamento()" verbalization="Dias_Relacionamento"/>
+  <variables name="Regra_Concentracao" type="br.com.educaciencia.regra.Regra_Concentracao" initialValue="new br.com.educaciencia.regra.Regra_Concentracao()" verbalization="Regra_Concentracao"/>
+  <variables name="Trata_nulo" type="br.com.educaciencia.regra.Trata_nulo" initialValue="new br.com.educaciencia.regra.Trata_nulo()" verbalization="Trata_nulo"/>
+  <variables name="Valida_Data_Pesquisa" type="br.com.educaciencia.regra.Valida_Data_Pesquisa" initialValue="new br.com.educaciencia.regra.Valida_Data_Pesquisa()" verbalization="Valida_Data_Pesquisa"/>
+  <variables name="CondicaoAceite" type="br.com.educaciencia.response.CondicaoAceite" initialValue="new br.com.educaciencia.response.CondicaoAceite()" verbalization="CondicaoAceite"/>
+  <variables name="Motivos" type="br.com.educaciencia.response.Motivos" initialValue="new br.com.educaciencia.response.Motivos()" verbalization="Motivos"/>
+  <variables name="Regra" type="br.com.educaciencia.response.Regra" initialValue="new br.com.educaciencia.response.Regra()" verbalization="Regra"/>
+  <variables name="Situacao" type="br.com.educaciencia.response.Situacao" initialValue="new br.com.educaciencia.response.Situacao()" verbalization="Situacao"/>
+  <variables name="Valida_Solicitacao" type="br.com.educaciencia.response.Valida_Solicitacao" initialValue="new br.com.educaciencia.response.Valida_Solicitacao()" verbalization="Valida_Solicitacao"/>
+  <variables name="CondicaoAceite_Aprovado" type="br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado" initialValue="new br.com.educaciencia.response.aprovado.CondicaoAceite_Aprovado()" verbalization="CondicaoAceite_Aprovado"/>
+  <variables name="Motivos_Aprovado" type="br.com.educaciencia.response.aprovado.Motivos_Aprovado" initialValue="new br.com.educaciencia.response.aprovado.Motivos_Aprovado()" verbalization="Motivos_Aprovado"/>
+  <variables name="Regra_Aprovado" type="br.com.educaciencia.response.aprovado.Regra_Aprovado" initialValue="new br.com.educaciencia.response.aprovado.Regra_Aprovado()" verbalization="Regra_Aprovado"/>
+  <variables name="Valida_Fluxo_Aprovado" type="br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado" initialValue="new br.com.educaciencia.response.aprovado.Valida_Fluxo_Aprovado()" verbalization="Valida_Fluxo_Aprovado"/>
+  <variables name="validaDados" type="boolean" initialValue="false" verbalization="validaDados"/>
+  <variables name="validaDataRelacionamento" type="boolean" initialValue="false" verbalization="validaDataRelacionamento"/>
+  <variables name="Status" type="br.com.educaciencia.response.Status" initialValue="new br.com.educaciencia.response.Status()" verbalization="Status"/>
+  <variables name="Status_Aprovado" type="br.com.educaciencia.response.aprovado.Status_Aprovado" initialValue="new br.com.educaciencia.response.aprovado.Status_Aprovado()" verbalization="Status_Aprovado"/>
+  <variables name="Classificacao" type="br.com.educaciencia.request.Classificacao" initialValue="" verbalization="Classificacao"/>
+  <variables name="Solicitacao" type="br.com.educaciencia.request.Solicitacao_ODM" initialValue="" verbalization="Solicitacao"/>
+</ilog.rules.studio.model.base:VariableSet>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="EducaCienciaFastCode_CI" managingXom="true">
+  <name>EducaCienciaFastCode_CI</name>
+  <uuid>0eb70b8b-551b-49b4-b6e7-63b5ade0d5e7</uuid>
+  <operations operationName="EducaCienciaFastCode_OD">
+    <operation href="EducaCienciaFastCode_OD.dop#d0cf1d28-f271-42d5-b8bf-4e43367afa11"/>
+    <properties key="ruleset.version">
+      <value><![CDATA[1.0]]></value>
+    </properties>
+  </operations>
+  <operations operationName="EducaCienciaFastCode_TESTE">
+    <operation href="EducaCienciaFastCode_TESTE.dop#78a1d04d-94a7-4be7-aec6-bfe0c7eaac77"/>
+    <properties key="ruleset.version">
+      <value><![CDATA[1.0]]></value>
+    </properties>
+  </operations>
+  <versionPolicies label="Aumentar números da versão secundária" ruleset="INCREMENT_MINOR" default="true" recurrent="true">
+    <description><![CDATA[Atualizações na versão secundária para cada conjunto de regras. Disponibiliza a nova versão disponível, mas retém versões anteriores.]]></description>
+  </versionPolicies>
+  <versionPolicies label="Use os números de versão base." recurrent="true">
+    <description><![CDATA[Usa os números fornecidos na configuração de implementação. Substitui a versão mais recente de cada conjunto de regras por esta liberação. Usado para hot fixes ou desenvolvimento.]]></description>
+  </versionPolicies>
+  <versionPolicies label="O usuário pode definir os números de versão" ruleset="MANUAL" recurrent="true">
+    <description><![CDATA[Permite inserir seus próprios números de versão. Usado para hot fixes ou atualizações para uma liberação anterior.]]></description>
+  </versionPolicies>
+</com.ibm.rules.studio.model.decisionservice:Deployment>

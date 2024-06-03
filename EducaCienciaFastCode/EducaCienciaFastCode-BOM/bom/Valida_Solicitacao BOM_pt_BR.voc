@@ -1,0 +1,13 @@
+# Vocabulary Properties
+uuid = 9b19d625-ba9a-471d-84db-3c9021f376a9
+
+# br.com.educaciencia.response.Valida_Solicitacao
+br.com.educaciencia.response.Valida_Solicitacao#concept.label = valida solicitacao
+br.com.educaciencia.response.Valida_Solicitacao.valida_objeto1_aposVencto#phrase.action = colocar à {valida objeto1 apos vencto} que {this} é valida objeto1 apos vencto
+br.com.educaciencia.response.Valida_Solicitacao.valida_objeto1_aposVencto#phrase.navigation = {this} é valida objeto1 apos vencto
+br.com.educaciencia.response.Valida_Solicitacao.valida_objeto1_ateVencto#phrase.action = colocar à {valida objeto1 ate vencto} que {this} é valida objeto1 ate vencto
+br.com.educaciencia.response.Valida_Solicitacao.valida_objeto1_ateVencto#phrase.navigation = {this} é valida objeto1 ate vencto
+br.com.educaciencia.response.Valida_Solicitacao.valida_objeto6_aposVencto#phrase.action = colocar à {valida objeto6 apos vencto} que {this} é valida objeto6 apos vencto
+br.com.educaciencia.response.Valida_Solicitacao.valida_objeto6_aposVencto#phrase.navigation = {this} é valida objeto6 apos vencto
+br.com.educaciencia.response.Valida_Solicitacao.valida_objeto6_ateVencto#phrase.action = colocar à {valida objeto6 ate vencto} que {this} é valida objeto6 ate vencto
+br.com.educaciencia.response.Valida_Solicitacao.valida_objeto6_ateVencto#phrase.navigation = {this} é valida objeto6 ate vencto

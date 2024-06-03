@@ -1,0 +1,15 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "d054d551-2631-421c-95b1-cbea8e64f196"
+package br.com.educaciencia.response.aprovado;
+
+
+public class Motivos_Aprovado
+{
+    public string regra;
+    public string status;
+    public Motivos_Aprovado(string arg1, string arg2);
+    public Motivos_Aprovado();
+}
+

@@ -1,0 +1,17 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "bb57fc0f-c260-484d-81b0-5dd01aac782f"
+package br.com.educaciencia.comentarios;
+
+
+public class RegraDadosCodComments2
+{
+    public string codigo_1;
+    public string codigo_2;
+    public string comentarios_1;
+    public string comentarios_2;
+    public RegraDadosCodComments2(string arg1, string arg2, string arg3, string arg4);
+    public RegraDadosCodComments2();
+}
+

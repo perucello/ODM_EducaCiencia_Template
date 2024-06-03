@@ -1,0 +1,17 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "22ce51a7-e26c-46bf-a871-e519b7085ff4"
+package br.com.educaciencia.response;
+
+
+public class Situacao
+{
+    public java.util.ArrayList condicoesAceite domain 0,* class br.com.educaciencia.response.CondicaoAceite;
+    public string situacao;
+    public Situacao(string arg1, 
+        java.util.ArrayList arg2 domain 0,* class br.com.educaciencia.response.CondicaoAceite);
+    public Situacao();
+    public string toString();
+}
+

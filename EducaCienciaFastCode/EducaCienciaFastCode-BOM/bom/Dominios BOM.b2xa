@@ -1,0 +1,104 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.3/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.3/Translation ilog/rules/schemas/1_3/b2x.xsd">
+    <id>02ecf981-212d-473b-a1fe-6f2e064e5e42</id>
+    <lang>ARL</lang>
+    <class>
+        <businessName>Produto_Domain</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Produto1</name>
+            <getter language="irl"><![CDATA[
+            return "Produto 1";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Produto2</name>
+            <getter language="irl"><![CDATA[
+            return "Produto 2";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Produto3</name>
+            <getter language="irl"><![CDATA[
+            return "Produto 3";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Produto4</name>
+            <getter language="irl"><![CDATA[
+            return "Produto 4";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>Segmento_Domain</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Segmento1</name>
+            <getter language="irl"><![CDATA[
+            return "Segmento 1";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Segmento2</name>
+            <getter language="irl"><![CDATA[
+            return "Segmento 2";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Segmento3</name>
+            <getter language="irl"><![CDATA[
+            return "Segmento 3";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>Status_Domain</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>aprovar</name>
+            <getter language="irl"><![CDATA[
+            return "aprovar";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>manual</name>
+            <getter language="irl"><![CDATA[
+            return "manual";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>rejeitar</name>
+            <getter language="irl"><![CDATA[
+            return "rejeitar";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>reprovar</name>
+            <getter language="irl"><![CDATA[
+            return "reprovar";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>SubSegmento_Domain</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Sub_Segmento1</name>
+            <getter language="irl"><![CDATA[
+            return "Sub_Segmento 1";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Sub_Segmento2</name>
+            <getter language="irl"><![CDATA[
+            return "Sub_Segmento2";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Sub_Segmento3</name>
+            <getter language="irl"><![CDATA[
+            return "Sub_Segmento3";
+            ]]></getter>
+        </attribute>
+    </class>
+</b2x:translation>

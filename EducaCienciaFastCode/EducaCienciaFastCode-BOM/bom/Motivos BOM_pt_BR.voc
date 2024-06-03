@@ -1,0 +1,11 @@
+# Vocabulary Properties
+uuid = ae991fa2-3031-46a8-8b69-5ee64fb82df9
+
+# br.com.educaciencia.response.Motivos
+br.com.educaciencia.response.Motivos#concept.label = motivos
+br.com.educaciencia.response.Motivos.codigo#phrase.action = atribuir o codigo {this,PARTITIVE_ARTICLE} a {codigo}
+br.com.educaciencia.response.Motivos.codigo#phrase.navigation = {codigo} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.response.Motivos.motivo#phrase.action = atribuir o motivo {this,PARTITIVE_ARTICLE} a {motivo}
+br.com.educaciencia.response.Motivos.motivo#phrase.navigation = {motivo} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.response.Motivos.status#phrase.action = atribuir o status {this,PARTITIVE_ARTICLE} a {status}
+br.com.educaciencia.response.Motivos.status#phrase.navigation = {status} {this,PARTITIVE_ARTICLE}

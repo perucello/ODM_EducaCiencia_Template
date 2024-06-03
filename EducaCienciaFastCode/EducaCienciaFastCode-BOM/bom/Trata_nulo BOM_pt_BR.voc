@@ -1,0 +1,19 @@
+# Vocabulary Properties
+uuid = 75f5635e-83f8-49e3-8f1e-6eb5cf1e606e
+
+# br.com.educaciencia.regra.Trata_nulo
+br.com.educaciencia.regra.Trata_nulo#concept.label = trata nulo
+br.com.educaciencia.regra.Trata_nulo.checagem_Nulo(java.lang.Double)#phrase.navigation = {this}.checagem_Nulo({0})
+br.com.educaciencia.regra.Trata_nulo.checagem_mesesVencimento(boolean)#phrase.navigation = {this}.checagem_mesesVencimento({0})
+br.com.educaciencia.regra.Trata_nulo.objeto1_aposVencto#phrase.action = colocar à {objeto1 apos vencto} que {this} é objeto1 apos vencto
+br.com.educaciencia.regra.Trata_nulo.objeto1_aposVencto#phrase.navigation = {this} é objeto1 apos vencto
+br.com.educaciencia.regra.Trata_nulo.objeto1_ateVencto#phrase.action = colocar à {objeto1 ate vencto} que {this} é objeto1 ate vencto
+br.com.educaciencia.regra.Trata_nulo.objeto1_ateVencto#phrase.navigation = {this} é objeto1 ate vencto
+br.com.educaciencia.regra.Trata_nulo.objeto6_aposVencto#phrase.action = colocar à {objeto6 apos vencto} que {this} é objeto6 apos vencto
+br.com.educaciencia.regra.Trata_nulo.objeto6_aposVencto#phrase.navigation = {this} é objeto6 apos vencto
+br.com.educaciencia.regra.Trata_nulo.objeto6_ateVencto#phrase.action = colocar à {objeto6 ate vencto} que {this} é objeto6 ate vencto
+br.com.educaciencia.regra.Trata_nulo.objeto6_ateVencto#phrase.navigation = {this} é objeto6 ate vencto
+br.com.educaciencia.regra.Trata_nulo.resultado#phrase.action = colocar à {resultado} que {this} é resultado
+br.com.educaciencia.regra.Trata_nulo.resultado#phrase.navigation = {this} é resultado
+br.com.educaciencia.regra.Trata_nulo.valor#phrase.action = atribuir o valor {this,PARTITIVE_ARTICLE} a {valor}
+br.com.educaciencia.regra.Trata_nulo.valor#phrase.navigation = {valor} {this,PARTITIVE_ARTICLE}

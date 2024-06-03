@@ -1,0 +1,13 @@
+# Vocabulary Properties
+uuid = a636e244-6b05-463a-ae07-8f5fb892c804
+
+# br.com.educaciencia.comentarios.RegraDadosCodComments4
+br.com.educaciencia.comentarios.RegraDadosCodComments4#concept.label = regra dados cod comments4
+br.com.educaciencia.comentarios.RegraDadosCodComments4.codigo_1#phrase.action = atribuir o codigo 1 {this,PARTITIVE_ARTICLE} a {codigo 1}
+br.com.educaciencia.comentarios.RegraDadosCodComments4.codigo_1#phrase.navigation = {codigo 1} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.comentarios.RegraDadosCodComments4.codigo_2#phrase.action = atribuir o codigo 2 {this,PARTITIVE_ARTICLE} a {codigo 2}
+br.com.educaciencia.comentarios.RegraDadosCodComments4.codigo_2#phrase.navigation = {codigo 2} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.comentarios.RegraDadosCodComments4.comentarios_1#phrase.action = atribuir o comentarios 1 {this,PARTITIVE_ARTICLE} a {comentarios 1}
+br.com.educaciencia.comentarios.RegraDadosCodComments4.comentarios_1#phrase.navigation = {comentarios 1} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.comentarios.RegraDadosCodComments4.comentarios_2#phrase.action = atribuir o comentarios 2 {this,PARTITIVE_ARTICLE} a {comentarios 2}
+br.com.educaciencia.comentarios.RegraDadosCodComments4.comentarios_2#phrase.navigation = {comentarios 2} {this,PARTITIVE_ARTICLE}

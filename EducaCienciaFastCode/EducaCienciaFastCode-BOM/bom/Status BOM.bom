@@ -1,0 +1,18 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "0cef84aa-5a8d-41c5-b92b-67a03e0aaaae"
+package br.com.educaciencia.response;
+
+
+public class Status
+{
+    public java.util.List condicaoAceite domain 0,* class br.com.educaciencia.response.CondicaoAceite;
+    public string status_final;
+    public Status(string arg1, 
+        java.util.List arg2 domain 0,* class br.com.educaciencia.response.CondicaoAceite);
+    public Status();
+    public void adicionarCondicaoAceite_2(string arg1, string arg2, string arg3, string arg4);
+    public void mostrarLista_ODM();
+}
+

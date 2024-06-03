@@ -1,0 +1,17 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "871d0eae-9ad4-4894-8cba-dce8b4907cc4"
+package br.com.educaciencia.response.aprovado;
+
+
+public class CondicaoAceite_Aprovado
+{
+    public java.util.List motivos_Aprovado domain 0,* class br.com.educaciencia.response.aprovado.Motivos_Aprovado;
+    public string regra;
+    public CondicaoAceite_Aprovado(string arg1, 
+        java.util.List arg2 domain 0,* class br.com.educaciencia.response.aprovado.Motivos_Aprovado);
+    public CondicaoAceite_Aprovado();
+    public void adicionarMotivos_Aprovado(br.com.educaciencia.response.aprovado.Motivos_Aprovado arg);
+}
+

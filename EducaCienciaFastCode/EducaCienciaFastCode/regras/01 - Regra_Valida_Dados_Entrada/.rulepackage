@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>01 - Regra_Valida_Dados_Entrada</name>
+  <uuid>2b1c25d4-7aee-4783-912d-911c5126d9db</uuid>
+</ilog.rules.studio.model.base:RulePackage>

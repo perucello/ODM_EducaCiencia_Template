@@ -1,0 +1,13 @@
+# Vocabulary Properties
+uuid = e5cf8b5f-9572-4226-98fa-93f981f43adc
+
+# br.com.educaciencia.regra.Dias_Relacionamento
+br.com.educaciencia.regra.Dias_Relacionamento#concept.label = dias relacionamento
+br.com.educaciencia.regra.Dias_Relacionamento.data_request_calcula#phrase.action = atribuir o data request calcula {this,PARTITIVE_ARTICLE} a {data request calcula}
+br.com.educaciencia.regra.Dias_Relacionamento.data_request_calcula#phrase.navigation = {data request calcula} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.regra.Dias_Relacionamento.regra_dias_relacionamento#phrase.action = atribuir o regra dias relacionamento {this,PARTITIVE_ARTICLE} a {regra dias relacionamento}
+br.com.educaciencia.regra.Dias_Relacionamento.regra_dias_relacionamento#phrase.navigation = {regra dias relacionamento} {this,PARTITIVE_ARTICLE}
+br.com.educaciencia.regra.Dias_Relacionamento.result_dias_odm_boolean(java.lang.String,int)#phrase.navigation = {this}.result_dias_odm_boolean({0}, {1})
+br.com.educaciencia.regra.Dias_Relacionamento.result_dias_odm_boolean_regra(java.lang.String,int)#phrase.navigation = {this}.result_dias_odm_boolean_regra({0}, {1})
+br.com.educaciencia.regra.Dias_Relacionamento.result_odm#phrase.action = colocar à {result odm} que {this} é result odm
+br.com.educaciencia.regra.Dias_Relacionamento.result_odm#phrase.navigation = {this} é result odm

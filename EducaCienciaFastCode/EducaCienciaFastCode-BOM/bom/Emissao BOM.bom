@@ -1,0 +1,14 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/EducaCienciaFastCode-BOM//EducaCienciaFastCode-XOM"
+property uuid "7755b9b2-8bbb-4a29-8695-854f7326b943"
+package br.com.educaciencia.request;
+
+
+public class Emissao
+{
+    public string dataEmissao;
+    public Emissao(string arg);
+    public Emissao();
+}
+

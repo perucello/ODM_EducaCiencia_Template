@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>Fluxo_EducaCienciaFastCode</name>
+  <uuid>2333aefa-e159-48e3-b41c-d587065d6f0a</uuid>
+  <locale>pt_BR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Validando Dados" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "****************************************"; 
+Apresentar "****************************************";   
+Apresentar "**** FLUXO EDUCACIENCIA FASTCODE *******";   
+Apresentar "****************************************";   
+Apresentar "****************************************";   
+Apresentar "Produto teste: " + o produto de Solicitacao ; 
+Apresentar "****************************************";   
+Apresentar "**** valida dados **********************"; 
+
+
+
+]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "status de Status: " + o status final de Status ;
+Apresentar "********** final ***********";
+Apresentar "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
+]]></FinalActions>
+        <RuleList>
+          <Rule Uuid="319d2053-cd8f-4398-a1fb-fe24dd44cb32"/>
+        </RuleList>
+      </RuleTask>
+      <ActionTask Identifier="FIM ">
+        <InitialActions Language="bal"><![CDATA[Apresentar "-----------------------------------------";   
+Apresentar "--------------- FIM ---------------------";  
+]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "-----------------------------------------";  
+Apresentar "------------ Lista Exceção --------------"; 
+mostrarLista_ODM Status; 
+Apresentar "-----------------------------------------";  
+Apresentar "";  
+Apresentar "-----------------------------------------"; 
+Apresentar "------------ Lista  Aprovados -----------"; 
+mostrarLista_ODM_aprovados Status_Aprovado;  
+Apresentar "-----------------------------------------";  
+Apresentar "-----------------------------------------";  
+]]></FinalActions>
+      </ActionTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="99 - Tabela Valida Regras Aprovadas" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "****************************************";   
+Apresentar "**** Valida Regras Aprovadas ***********"; ]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
+]]></FinalActions>
+        <RuleList>
+          <Rule Uuid="7a9d6bc3-9401-4acb-8ced-29b6db570f31"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="01 - Dias Relacionamento" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "****************************************";   
+Apresentar "**** Dias Relacionamento ***************"; ]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
+]]></FinalActions>
+        <RuleList>
+          <Rule Uuid="868a054f-37da-4d5b-bae2-418496c8e609"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_3" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[Apresentar "****************************************";   
+Apresentar "**** xxxxxxxxxxxx **********************"; ]]></InitialActions>
+        <FinalActions Language="bal"><![CDATA[Apresentar "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
+]]></FinalActions>
+      </RuleTask>
+      <StopTask Identifier="task_1"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+      <TaskNode Identifier="node_2" Task="Validando Dados"/>
+      <TaskNode Identifier="node_3" Task="FIM "/>
+      <TaskNode Identifier="node_6" Task="99 - Tabela Valida Regras Aprovadas"/>
+      <TaskNode Identifier="node_4" Task="01 - Dias Relacionamento"/>
+      <TaskNode Identifier="node_5" Task="task_3"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_2"/>
+      <Transition Identifier="transition_3" Source="node_3" Target="node_1"/>
+      <Transition Identifier="transition_1" Source="node_2" Target="node_4">
+        <Conditions Language="bal"><![CDATA[validaDados é verdadeiro ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_4" Source="node_6" Target="node_3"/>
+      <Transition Identifier="transition_5" Source="node_2" Target="node_3"/>
+      <Transition Identifier="transition_6" Source="node_4" Target="node_5"/>
+      <Transition Identifier="transition_7" Source="node_5" Target="node_6"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="pt_BR">
+      <Data Name="node_2#height">53.402344</Data>
+      <Data Name="node_4#width">207.24611</Data>
+      <Data Name="node_1#height">17.000017</Data>
+      <Data Name="node_3#height">40.355408</Data>
+      <Data Name="node_0#height">21.0</Data>
+      <Data Name="node_4#height">40.0</Data>
+      <Data Name="node_5#name">node_1</Data>
+      <Data Name="node_2#name">node_1</Data>
+      <Data Name="transition_1#label">dados validos</Data>
+      <Data Name="node_6#height">40.621002</Data>
+      <Data Name="node_5#height">40.49762</Data>
+      <Data Name="transition_6#label">&lt; 30 dias -- validaDataRelacionamento é verdadeiro</Data>
+      <Data Name="node_2#width">140.74472</Data>
+      <Data Name="node_0#width">21.0</Data>
+      <Data Name="node_3#y">465.69867</Data>
+      <Data Name="node_4#x">197.42712</Data>
+      <Data Name="node_4#y">194.40234</Data>
+      <Data Name="node_5#x">197.42712</Data>
+      <Data Name="node_6#x">197.42712</Data>
+      <Data Name="node_5#y">284.65115</Data>
+      <Data Name="node_6#y">375.21045</Data>
+      <Data Name="node_5#width">209.99698</Data>
+      <Data Name="node_0#x">111.98923</Data>
+      <Data Name="node_0#y">10.5</Data>
+      <Data Name="node_1#x">111.98923</Data>
+      <Data Name="node_1#y">544.37634</Data>
+      <Data Name="node_2#x">110.98925</Data>
+      <Data Name="node_2#y">97.70117</Data>
+      <Data Name="node_3#x">111.989235</Data>
+      <Data Name="node_1#name">node_2</Data>
+      <Data Name="node_3#width">223.97847</Data>
+      <Data Name="node_4#name">node_1</Data>
+      <Data Name="node_1#width">16.999996</Data>
+      <Data Name="node_6#name">node_1</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="transition_5#label">dados invalidos</Data>
+      <Data Name="node_6#width">291.75156</Data>
+      <Data Name="node_3#name">node_3</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

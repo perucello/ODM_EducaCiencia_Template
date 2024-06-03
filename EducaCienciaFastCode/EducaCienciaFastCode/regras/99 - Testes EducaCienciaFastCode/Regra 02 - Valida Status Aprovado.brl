@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra 02 - Valida Status Aprovado</name>
+  <uuid>221b44da-5a75-4890-9726-2282d10a1de9</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	Valida_Fluxo_Aprovado é valida add aprovado lista regra 02  é verdadeiro 
+então 
+	Apresentar "o status final de Status é aprovado";
+	Apresentar "Entao Regra 2 - " + o status final de Status ; 
+	
+	atribuir o regra de CondicaoAceite_Aprovado a "regra de CondicaoAceite_Aprovado"; 
+	atribuir o status de Motivos_Aprovado a "aprovado regra 2 ação" ;
+	atribuir o regra de Motivos_Aprovado a "regra bla bla bla 2"; 
+	
+	Status_Aprovado .adicionarCondicaoAceiteAprovado_2 (o regra de CondicaoAceite_Aprovado, o regra de Motivos_Aprovado,o status de Motivos_Aprovado  ) ;  	         
+	CondicaoAceite_Aprovado .adicionarMotivos_Aprovado( Motivos_Aprovado ) ;
+	mostrarLista_ODM_aprovados Status_Aprovado;
+senão 
+	Apresentar "senao Regra 2 - " + o status final de Status ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
